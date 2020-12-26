@@ -1,5 +1,6 @@
 # venv
 ner_tagger
+data
 # Jupyter Notebook
 .ipynb_checkpoints
 
