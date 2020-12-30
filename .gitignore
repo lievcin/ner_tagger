@@ -1,6 +1,8 @@
 # venv
 ner_tagger
 data
+pre-trained-embeddings
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
