@@ -18,8 +18,10 @@ class Dataset(object):
         self.labels = list(set(self.data["Tag"].values))
         self.labels_size = len(self.labels)
 
-        self.word2idx = {w: i + 1 for i, w in enumerate(self.vocabulary)}
+        self.word2idx = {w: i for i, w in enumerate(self.vocabulary)}
+        self.idx2word = {i: w for i, w in enumerate(self.vocabulary)}
         self.tag2idx = {t: i for i, t in enumerate(self.labels)}
+        self.idx2tag = {i: t for i, t in enumerate(self.labels)}        
         self.sentences = self.make_sentences()
         
     def make_sentences(self):
