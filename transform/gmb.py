@@ -40,14 +40,13 @@ def main():
     train_idx = np.setdiff1d(sentence_idx,test_idx)
 
     # check that the directory to store the data exists, if not create it.
-    check_dir("./data/processed_data/gmb/train/")
+    check_dir("./data/processed_data/gmb/")
     df_train = pd.DataFrame(data=[s for s in rows if s[0] in train_idx], columns=columns)
-    print(df_train.shape)
     train_sentences, train_labels = make_sentences(df_train, group_col="sentence_idx", word_col="Word", tag_col="Tag")
-    train_sentences.to_csv("./data/processed_data/gmb/train/sentences.csv", index=False, header=False)
-    train_labels.to_csv("./data/processed_data/gmb/train/labels.csv", index=False, header=False)
+    train_sentences.to_csv("./data/processed_data/gmb/train.sentences.csv", index=False, header=False)
+    train_labels.to_csv("./data/processed_data/gmb/train.labels.csv", index=False, header=False)
 
-    vocab = df_train["Word"].unique()
+    vocab = df_train["Word"].unique() # TODO change this to be a full list and add a frequency filter.
     tags = sorted(df_train["Tag"].unique(), reverse=True)
 
     with open("./data/processed_data/gmb/vocabulary.txt", "w", newline="") as f:
@@ -58,11 +57,11 @@ def main():
 
     del (df_train, train_sentences, train_labels, vocab, tags)
 
-    check_dir("./data/processed_data/gmb/test/")
+    check_dir("./data/processed_data/gmb/")
     df_test = pd.DataFrame(data=[s for s in rows if s[0] in test_idx], columns=columns)
     test_sentences, test_labels = make_sentences(df_test, group_col="sentence_idx", word_col="Word", tag_col="Tag")
-    test_sentences.to_csv("./data/processed_data/gmb/test/sentences.csv", index=False, header=False)
-    test_labels.to_csv("./data/processed_data/gmb/test/labels.csv", index=False, header=False)
+    test_sentences.to_csv("./data/processed_data/gmb/test.sentences.csv", index=False, header=False)
+    test_labels.to_csv("./data/processed_data/gmb/test.labels.csv", index=False, header=False)
     del (df_test, test_sentences, test_labels)
 
 if __name__ == "__main__":
