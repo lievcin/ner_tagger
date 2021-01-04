@@ -3,9 +3,11 @@ from sklearn.model_selection import train_test_split
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 class Dataset(object):
-    def __init__(self, path, maxlen):
+    def __init__(self, vocab_path, data_path):
         """
-        Defines self.df as a df with the loaded dataset (for now) ... TODO complete docstring
+        Defines self.df as a df with the loaded dataset (for now) ...
+        This expects that data in a certain format, prepared by the transformations scripts
+        TODO complete docstring
         Args:
             path: path to the dataset file to load
         """
