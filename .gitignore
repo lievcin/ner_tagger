@@ -11,3 +11,7 @@ __pycache__/
 # data folders
 data
 pre-trained-embeddings
+
+# model files
+models/**/*.h5
+models/**/*.json
