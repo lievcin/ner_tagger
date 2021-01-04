@@ -112,13 +112,13 @@ groups	O	O
 (	O	O
 the	O	O
 New	I-LOC	I-ORG
-People	I-DAT	I-ORG
+People	I-ORG	I-ORG
 's	O	I-ORG
 Army	I-ORG	I-ORG
 and	O	O
 the	O	O
 Communist	O	I-LOC
-Party	I-LOC	I-LOC
+Party	I-ORG	I-LOC
 of	O	O
 the	O	O
 Philippines	I-LOC	I-ORG
@@ -209,7 +209,7 @@ to	O	O
 the	O	O
 American	O	I-ORG
 Heart	O	I-ORG
-Association	I-ORG	I-ORG
+Association	I-LOC	I-ORG
 ,	O	O
 cardiac	O	O
 arrest	O	O
@@ -317,7 +317,7 @@ of	O	O
 heightened	O	O
 tension	O	O
 between	O	O
-Syria	I-DAT	I-LOC
+Syria	I-ORG	I-LOC
 and	O	O
 Israel	I-LOC	I-LOC
 ,	O	O
@@ -333,7 +333,7 @@ Syrian	O	O
 territory	O	O
 on	O	O
 September	I-LOC	I-DAT
-6	O	I-DAT
+6	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -510,7 +510,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 ENDPAD	O	O
 
-Kashmir	I-ORG	I-LOC
+Kashmir	I-PER	I-LOC
 is	O	O
 divided	O	O
 between	O	O
@@ -682,7 +682,7 @@ value	O	O
 of	O	O
 the	O	O
 U.S.	I-LOC	I-LOC
-dollar	O	O
+dollar	I-LOC	O
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -717,7 +717,7 @@ ENDPAD	O	O
 It	O	O
 also	O	O
 offered	O	O
-EU	O	I-ORG
+EU	I-LOC	I-ORG
 help	O	O
 in	O	O
 preparing	O	O
@@ -883,7 +883,7 @@ in	O	O
 the	O	O
 capital	O	O
 ,	O	O
-Addis	I-DAT	I-PER
+Addis	I-LOC	I-PER
 Ababa	I-LOC	I-PER
 .	O	O
 ENDPAD	O	O
@@ -975,7 +975,7 @@ coalition	O	O
 brings	O	O
 together	O	O
 Mr.	I-LOC	I-ORG
-Ansip	O	I-ORG
+Ansip	I-DAT	I-ORG
 's	O	I-ORG
 Reform	O	I-ORG
 Party	I-LOC	I-ORG
@@ -1044,7 +1044,7 @@ the	O	O
 U.S.	I-LOC	I-LOC
 workforce	O	O
 every	I-DAT	I-DAT
-month	I-DAT	I-DAT
+month	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -1338,18 +1338,18 @@ where	O	O
 Japan	I-LOC	I-LOC
 's	O	O
 benchmark	O	O
-Nikkei	O	I-LOC
+Nikkei	I-LOC	I-LOC
 index	O	O
 fell	O	O
 two	O	O
-percent	I-DAT	I-PCT
+percent	I-LOC	I-PCT
 ,	O	O
 and	O	O
-Hong	I-DAT	I-LOC
-Kong	I-DAT	I-LOC
+Hong	I-LOC	I-LOC
+Kong	I-LOC	I-LOC
 's	O	O
-Hang	I-DAT	I-LOC
-Seng	I-DAT	I-LOC
+Hang	I-ORG	I-LOC
+Seng	I-ORG	I-LOC
 index	O	O
 was	O	O
 down	O	O
@@ -1382,14 +1382,14 @@ offer	O	O
 ,	O	O
 advertised	O	O
 in	O	O
-today	O	I-DAT
+today	I-LOC	I-DAT
 's	O	O
 editions	O	O
 of	O	O
 The	O	I-ORG
 Wall	O	I-ORG
 Street	O	I-ORG
-Journal	I-DAT	I-ORG
+Journal	I-LOC	I-ORG
 ,	O	O
 is	O	O
 scheduled	O	O
@@ -1399,7 +1399,7 @@ at	O	O
 the	O	O
 end	O	I-DAT
 of	O	I-DAT
-November	I-DAT	I-DAT
+November	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -1545,13 +1545,13 @@ rose	O	O
 69	O	I-MON
 cents	I-LOC	I-MON
 to	O	I-MON
-$	I-DAT	I-MON
-77	O	I-MON
+$	I-LOC	I-MON
+77	I-ORG	I-MON
 a	O	O
 barrel	O	O
 in	O	O
-New	I-DAT	I-LOC
-York	I-DAT	I-LOC
+New	I-LOC	I-LOC
+York	I-LOC	I-LOC
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -1735,7 +1735,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 President	O	O
-Bush	O	I-PER
+Bush	I-PER	I-PER
 has	O	O
 renewed	O	O
 a	O	O
@@ -2001,16 +2001,16 @@ sales	O	O
 international	O	O
 auto	O	O
 giant	O	O
-General	I-DAT	I-ORG
-Motors	I-DAT	I-ORG
+General	I-LOC	I-ORG
+Motors	I-LOC	I-ORG
 announced	O	O
 a	O	O
 plan	O	O
 Tuesday	I-DAT	I-DAT
-[	I-DAT	I-DAT
+[	I-ORG	I-DAT
 July	I-DAT	I-DAT
-15th	I-DAT	I-DAT
-]	I-DAT	I-DAT
+15th	I-ORG	I-DAT
+]	I-ORG	I-DAT
 to	O	O
 cut	O	O
 expenses	O	O
@@ -2091,7 +2091,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 ENDPAD	O	O
 
-Court	O	I-ORG
+Court	I-PER	I-ORG
 officials	O	O
 say	O	O
 the	O	O
@@ -2119,7 +2119,7 @@ Mostar	O	I-LOC
 in	O	O
 the	O	I-DAT
 early	I-DAT	I-DAT
-1990s	I-DAT	I-DAT
+1990s	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -2162,7 +2162,7 @@ a	O	O
 ravine	O	O
 late	I-LOC	O
 on	O	O
-Monday	I-DAT	I-DAT
+Monday	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -2201,9 +2201,9 @@ Angie	O	I-PER
 Sanclemente	O	I-PER
 Valenica	O	I-PER
 on	O	O
-Wednesday	I-DAT	I-DAT
+Wednesday	I-LOC	I-DAT
 in	O	O
-Argentina	I-DAT	I-LOC
+Argentina	I-LOC	I-LOC
 's	O	O
 capital	O	O
 Buenos	O	O
@@ -2312,7 +2312,7 @@ currently	O	O
 around	O	O
 the	O	O
 $	I-LOC	I-MON
-55	O	I-MON
+55	I-DAT	I-MON
 mark	O	I-MON
 .	O	O
 ENDPAD	O	O
@@ -2563,17 +2563,17 @@ ferry	O	O
 when	O	O
 it	O	O
 overturned	O	O
-Saturday	I-DAT	I-DAT
+Saturday	I-LOC	I-DAT
 in	O	O
 a	O	O
 river	O	O
 in	O	O
 the	O	O
 eastern	O	O
-Indian	O	O
+Indian	I-LOC	O
 state	O	O
 of	O	O
-West	I-DAT	I-LOC
+West	I-LOC	I-LOC
 Bengal	O	I-LOC
 .	O	O
 ENDPAD	O	O
@@ -2767,7 +2767,7 @@ a	O	O
 marine	O	O
 reserve	O	O
 in	O	O
-2000	O	I-DAT
+2000	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -2815,7 +2815,7 @@ announced	O	O
 the	O	O
 $	I-ORG	I-MON
 1.1	O	I-MON
-billion	O	I-MON
+billion	I-ORG	I-MON
 deal	O	O
 ,	O	O
 under	O	O
@@ -3111,7 +3111,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 ENDPAD	O	O
 
-Israel	I-ORG	I-LOC
+Israel	I-LOC	I-LOC
 has	O	O
 threatened	O	O
 to	O	O
@@ -3276,9 +3276,9 @@ Japan	I-LOC	I-LOC
 ,	O	O
 Thailand	I-LOC	I-LOC
 and	O	O
-Germany	I-DAT	I-LOC
+Germany	I-LOC	I-LOC
 in	O	O
-Malaysia	I-DAT	I-LOC
+Malaysia	I-ORG	I-LOC
 Tuesday	I-DAT	I-DAT
 after	O	O
 what	O	O
@@ -3378,7 +3378,7 @@ in	O	O
 southeastern	O	I-LOC
 Turkey	I-DAT	I-LOC
 since	I-DAT	I-DAT
-1984	I-DAT	I-DAT
+1984	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -3570,13 +3570,13 @@ ENDPAD	O	O
 ENDPAD	O	O
 ENDPAD	O	O
 
-Sudan	I-ORG	I-PER
+Sudan	I-PER	I-PER
 has	O	O
 accused	O	O
 Chad	O	I-LOC
 of	O	O
 assisting	O	O
-Darfur	I-ORG	I-ORG
+Darfur	I-LOC	I-ORG
 rebels	O	O
 in	O	O
 their	O	O
@@ -3630,7 +3630,7 @@ tribunal	O	O
 has	O	O
 indicted	O	O
 Mr.	I-LOC	I-ORG
-Karadzic	I-LOC	I-ORG
+Karadzic	I-ORG	I-ORG
 for	O	O
 his	O	O
 role	O	O
@@ -3838,7 +3838,7 @@ ill	O	O
 with	O	O
 salmonella	O	O
 poisoning	O	O
-since	O	I-DAT
+since	I-DAT	I-DAT
 April	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
@@ -4036,7 +4036,7 @@ it	O	O
 hopes	O	O
 the	O	O
 coming	O	O
-year	I-LOC	O
+year	I-DAT	O
 will	O	O
 be	O	O
 one	O	O
@@ -4151,7 +4151,7 @@ of	O	O
 the	O	O
 Northern	O	I-ORG
 Mariana	O	I-ORG
-Islands	I-DAT	I-ORG
+Islands	I-LOC	I-ORG
 decided	O	O
 in	O	O
 the	O	O
@@ -4191,7 +4191,7 @@ earthquake	O	O
 which	O	O
 hit	O	O
 Friday	I-LOC	I-DAT
-morning	O	I-TIM
+morning	I-DAT	I-TIM
 local	O	I-TIM
 time	O	I-TIM
 ,	O	O
@@ -4209,8 +4209,8 @@ about	O	O
 kilometers	O	O
 southwest	O	O
 of	O	O
-Mexico	I-DAT	I-LOC
-City	I-DAT	I-LOC
+Mexico	I-LOC	I-LOC
+City	I-LOC	I-LOC
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -4254,7 +4254,7 @@ from	O	O
 the	O	O
 capital	O	O
 ,	O	O
-Jakarta	O	I-LOC
+Jakarta	I-LOC	I-LOC
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -4284,7 +4284,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 ENDPAD	O	O
 
-Foreign	I-ORG	O
+Foreign	O	O
 Minister	O	O
 Sergei	O	I-PER
 Lavrov	O	I-PER
@@ -4294,7 +4294,7 @@ in	O	O
 St.	I-ORG	I-LOC
 Petersburg	I-ORG	I-LOC
 that	O	O
-Iraq	I-ORG	I-LOC
+Iraq	I-LOC	I-LOC
 could	O	O
 break	O	O
 up	O	O
@@ -4340,7 +4340,7 @@ say	O	O
 Israeli	O	O
 Prime	O	O
 Minister	O	O
-Ariel	O	I-PER
+Ariel	I-LOC	I-PER
 Sharon	I-LOC	I-PER
 remains	O	O
 in	O	O
@@ -4449,7 +4449,7 @@ newspaper	O	O
 Al-Ahram	O	I-LOC
 ,	O	O
 Mr.	I-LOC	I-LOC
-Sarkozy	I-DAT	I-PER
+Sarkozy	I-ORG	I-PER
 said	O	O
 France	I-LOC	I-LOC
 will	O	O
@@ -4489,7 +4489,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 One	O	O
-U.S.	I-ORG	I-LOC
+U.S.	I-LOC	I-LOC
 organization	O	O
 is	O	O
 attempting	O	O
@@ -4541,7 +4541,7 @@ ENDPAD	O	O
 
 Officials	O	O
 in	O	O
-Sudan	I-ORG	I-LOC
+Sudan	I-LOC	I-LOC
 say	O	O
 several	O	O
 days	O	O
@@ -4700,7 +4700,7 @@ the	O	O
 poll	O	O
 in	O	O
 early	I-DAT	I-DAT
-May	I-DAT	I-DAT
+May	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -4853,7 +4853,7 @@ are	O	O
 on	O	O
 duty	O	O
 in	O	O
-Jakarta	O	I-LOC
+Jakarta	I-LOC	I-LOC
 ,	O	O
 some	O	O
 dressed	O	O
@@ -4897,7 +4897,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 French	O	O
-Cameroon	O	I-PER
+Cameroon	I-ORG	I-PER
 became	O	O
 independent	O	O
 in	O	O
@@ -4955,7 +4955,7 @@ down	O	O
 with	O	O
 VOA	I-LOC	I-ORG
 's	O	O
-Paul	I-DAT	I-LOC
+Paul	I-ORG	I-LOC
 Sisco	I-LOC	I-LOC
 .	O	O
 ENDPAD	O	O
@@ -5212,8 +5212,8 @@ Iraq	I-LOC	I-LOC
 over	O	O
 the	O	O
 past	I-DAT	I-DAT
-18	I-DAT	I-DAT
-months	I-DAT	I-DAT
+18	I-ORG	I-DAT
+months	I-ORG	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -5567,7 +5567,7 @@ known	O	O
 to	O	O
 researchers	O	O
 about	O	O
-this	I-LOC	O
+this	I-DAT	O
 species	O	O
 ,	O	O
 other	O	O
@@ -6101,7 +6101,7 @@ independence	O	O
 in	O	O
 the	O	I-DAT
 20th	I-DAT	I-DAT
-century	I-DAT	I-DAT
+century	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -6190,7 +6190,7 @@ in	O	O
 Iraq	I-LOC	I-LOC
 that	O	O
 left	O	O
-25	I-DAT	O
+25	I-LOC	O
 people	O	O
 dead	O	O
 .	O	O
@@ -6288,7 +6288,7 @@ last	I-DAT	I-DAT
 month	I-DAT	I-DAT
 in	O	O
 which	O	O
-Israel	I-DAT	I-LOC
+Israel	I-LOC	I-LOC
 freed	O	O
 five	O	O
 Lebanese	O	O
@@ -6535,7 +6535,7 @@ group	O	O
 Hamas	I-LOC	I-ORG
 controls	O	O
 the	O	O
-Gaza	I-LOC	I-LOC
+Gaza	I-ORG	I-LOC
 Strip	I-ORG	I-LOC
 where	O	O
 Israel	I-LOC	I-LOC
@@ -6690,8 +6690,8 @@ named	O	O
 Hong	I-ORG	I-LOC
 Kong	I-ORG	I-LOC
 director	O	O
-Wong	O	I-PER
-Kar	O	I-PER
+Wong	I-ORG	I-PER
+Kar	I-ORG	I-PER
 Wai	O	I-PER
 as	O	O
 the	O	O
@@ -6990,7 +6990,7 @@ ENDPAD	O	O
 VOA	I-ORG	I-ORG
 's	O	O
 Deborah	I-ORG	I-LOC
-Block	O	I-LOC
+Block	I-PER	I-LOC
 was	O	O
 there	O	O
 .	O	O
@@ -7043,7 +7043,7 @@ producer	O	O
 Joseph	O	I-PER
 Mok	O	I-PER
 ,	O	O
-Elaine	O	I-PER
+Elaine	I-ORG	I-PER
 Lu	I-ORG	I-PER
 has	O	O
 more	O	O
@@ -7199,7 +7199,7 @@ once	O	O
 headed	O	O
 the	O	O
 United	I-LOC	I-ORG
-Nations	I-DAT	I-ORG
+Nations	I-LOC	I-ORG
 budget	O	O
 oversight	O	O
 committee	O	O
@@ -7258,7 +7258,7 @@ from	O	O
 detention	O	O
 in	O	O
 North	I-LOC	I-LOC
-Korea	I-DAT	I-LOC
+Korea	I-LOC	I-LOC
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -7409,7 +7409,7 @@ the	O	O
 tomb	O	O
 of	O	O
 South	I-LOC	O
-American	O	O
+American	I-ORG	O
 independence	O	O
 hero	O	O
 Simon	O	I-PER
@@ -7498,8 +7498,8 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 The	O	O
-next	I-ORG	O
-U.S.	I-ORG	I-LOC
+next	O	O
+U.S.	I-LOC	I-LOC
 president	O	O
 is	O	O
 likely	O	O
@@ -7602,7 +7602,7 @@ ENDPAD	O	O
 The	O	O
 48-year-old	O	O
 Mr.	I-ORG	O
-Ansip	O	I-PER
+Ansip	I-ORG	I-PER
 was	O	O
 the	O	O
 minister	O	O
@@ -7774,7 +7774,7 @@ world	O	O
 gathered	O	O
 around	O	O
 the	O	O
-Washington	I-DAT	I-LOC
+Washington	I-LOC	I-LOC
 Monument	I-DAT	I-LOC
 to	O	O
 welcome	O	O
@@ -7817,7 +7817,7 @@ on	O	O
 the	O	O
 archipelago	O	O
 to	O	O
-this	I-LOC	I-DAT
+this	I-DAT	I-DAT
 day	O	I-DAT
 .	O	O
 ENDPAD	O	O
@@ -7979,19 +7979,19 @@ economically	O	O
 depressed	O	O
 after	O	O
 the	O	O
-September	I-DAT	I-DAT
-11	O	I-DAT
+September	I-LOC	I-DAT
+11	I-DAT	I-DAT
 ,	O	I-DAT
-2001	I-DAT	I-DAT
+2001	I-LOC	I-DAT
 terrorist	O	O
 attacks	O	O
 on	O	O
 the	O	O
-U.S.	I-DAT	I-LOC
-VOA	I-DAT	I-LOC
+U.S.	I-LOC	I-LOC
+VOA	I-LOC	I-LOC
 's	O	O
 Nathan	O	I-LOC
-King	I-DAT	I-LOC
+King	I-LOC	I-LOC
 reports	O	O
 .	O	O
 ENDPAD	O	O
@@ -8007,7 +8007,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 ENDPAD	O	O
 
-Baquba	O	I-LOC
+Baquba	I-PER	I-LOC
 is	O	O
 known	O	O
 for	O	O
@@ -8223,7 +8223,7 @@ a	O	O
 so-called	O	O
 "	O	O
 white	O	O
-Christmas	I-DAT	I-DAT
+Christmas	I-LOC	I-DAT
 "	O	O
 for	O	O
 parts	O	O
@@ -8238,7 +8238,7 @@ rare	O	O
 ,	O	O
 such	O	O
 as	O	O
-Texas	O	I-LOC
+Texas	I-LOC	I-LOC
 ,	O	O
 Arkansas	O	I-LOC
 and	O	O
@@ -8480,8 +8480,8 @@ an	O	O
 operation	O	O
 in	O	O
 the	O	O
-West	I-DAT	I-ORG
-Bank	I-DAT	I-ORG
+West	I-LOC	I-ORG
+Bank	I-LOC	I-ORG
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -8532,7 +8532,7 @@ carrying	O	O
 Fatah	I-LOC	I-ORG
 official	O	O
 Medhat	O	I-PER
-Kamal	O	I-PER
+Kamal	I-LOC	I-PER
 outside	O	O
 the	O	O
 Mieh	O	I-ORG
@@ -8788,7 +8788,7 @@ militants	O	O
 from	O	O
 the	O	O
 greater	O	O
-Swat	O	I-LOC
+Swat	I-LOC	I-LOC
 valley	O	O
 region	O	O
 .	O	O
@@ -8876,7 +8876,7 @@ ENDPAD	O	O
 
 Gunmen	O	O
 in	O	O
-Nigeria	I-ORG	I-LOC
+Nigeria	I-LOC	I-LOC
 have	O	O
 killed	O	O
 at	O	O
@@ -8897,7 +8897,7 @@ restive	O	O
 southern	O	O
 oil	O	O
 region	O	O
-early	I-DAT	I-DAT
+early	I-LOC	I-DAT
 this	I-DAT	I-DAT
 morning	I-DAT	I-DAT
 Sunday	I-DAT	I-DAT
@@ -8925,10 +8925,10 @@ ENDPAD	O	O
 ENDPAD	O	O
 ENDPAD	O	O
 
-U.S.	I-ORG	I-LOC
+U.S.	I-LOC	I-LOC
 officials	O	O
 in	O	O
-Beijing	I-ORG	I-LOC
+Beijing	I-LOC	I-LOC
 have	O	O
 announced	O	O
 that	O	O
@@ -8941,9 +8941,9 @@ to	O	O
 visit	O	O
 the	O	O
 United	I-LOC	I-LOC
-States	I-DAT	I-LOC
+States	I-LOC	I-LOC
 in	O	I-DAT
-April	I-DAT	I-DAT
+April	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -9044,7 +9044,7 @@ Universal	O	I-ORG
 Declaration	O	I-ORG
 of	O	I-ORG
 Human	I-ORG	I-ORG
-Rights	I-LOC	I-ORG
+Rights	I-ORG	I-ORG
 in	O	O
 1948	O	I-DAT
 .	O	O
@@ -9130,7 +9130,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 The	O	O
-Kurdistan	O	I-ORG
+Kurdistan	I-ORG	I-ORG
 Workers	I-ORG	I-ORG
 '	O	I-ORG
 Party	I-ORG	I-ORG
@@ -9144,7 +9144,7 @@ fighting	O	O
 Turkey	I-LOC	I-ORG
 for	O	I-ORG
 autonomy	O	I-ORG
-since	O	I-DAT
+since	I-DAT	I-DAT
 1984	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
@@ -9351,7 +9351,7 @@ battle	O	O
 in	O	O
 the	O	O
 northwestern	O	O
-Swat	O	I-LOC
+Swat	I-LOC	I-LOC
 Valley	I-LOC	I-LOC
 .	O	O
 ENDPAD	O	O
@@ -9495,7 +9495,7 @@ who	O	O
 settled	O	O
 the	O	O
 New	I-LOC	I-ORG
-Hebrides	O	I-ORG
+Hebrides	I-DAT	I-ORG
 in	O	O
 the	O	I-DAT
 19th	I-DAT	I-DAT
@@ -9754,7 +9754,7 @@ elements	O	O
 of	O	O
 the	O	O
 European	O	I-ORG
-Union	I-DAT	I-ORG
+Union	I-LOC	I-ORG
 's	O	O
 Maastricht	O	I-LOC
 Treaty	O	I-ORG
@@ -9765,11 +9765,11 @@ European	O	I-ORG
 Economic	O	I-ORG
 and	O	I-ORG
 Monetary	O	I-ORG
-Union	I-DAT	I-ORG
+Union	I-LOC	I-ORG
 (	O	O
 EMU	O	O
 ),	O	O
-European	I-DAT	O
+European	I-ORG	O
 defense	O	O
 cooperation	O	O
 ,	O	O
@@ -9793,7 +9793,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 Ms.	I-ORG	I-ORG
-Rice	I-ORG	I-ORG
+Rice	I-PER	I-ORG
 also	O	O
 argued	O	O
 that	O	O
@@ -9959,9 +9959,9 @@ after	O	O
 hitting	O	O
 records	O	O
 above	O	O
-$	I-DAT	I-MON
-58	I-DAT	I-MON
-early	I-DAT	I-DAT
+$	I-LOC	I-MON
+58	O	I-MON
+early	I-ORG	I-DAT
 this	I-DAT	I-DAT
 week	I-DAT	I-DAT
 .	O	O
@@ -10321,7 +10321,7 @@ parents	O	O
 in	O	O
 a	O	O
 court	O	O
-Wednesday	I-DAT	I-DAT
+Wednesday	I-LOC	I-DAT
 ,	O	O
 after	O	O
 DNA	O	O
@@ -10558,7 +10558,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 In	O	O
-1993	I-ORG	I-DAT
+1993	O	I-DAT
 ,	O	I-DAT
 14	O	I-DAT
 imprisoned	O	O
@@ -10616,7 +10616,7 @@ United	I-ORG	I-ORG
 Nations	I-ORG	I-ORG
 conference	O	O
 in	O	O
-Rome	O	I-LOC
+Rome	I-ORG	I-LOC
 discussed	O	O
 the	O	O
 world	O	O
@@ -10720,7 +10720,7 @@ are	O	O
 Sweden	O	I-LOC
 ,	O	O
 South	I-LOC	I-LOC
-Korea	I-DAT	I-LOC
+Korea	I-LOC	I-LOC
 ,	O	O
 China	I-LOC	I-LOC
 ,	O	O
@@ -10762,7 +10762,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 Air	I-ORG	I-ORG
-Force	I-ORG	I-ORG
+Force	I-PER	I-ORG
 officials	O	O
 say	O	O
 the	O	O
@@ -10976,7 +10976,7 @@ main	O	O
 city	O	O
 of	O	O
 Indian	O	I-LOC
-Kashmir	I-DAT	I-LOC
+Kashmir	I-LOC	I-LOC
 in	O	O
 protest	O	O
 of	O	O
@@ -11076,7 +11076,7 @@ for	O	O
 a	O	O
 few	O	O
 hundred	O	O
-European	I-LOC	O
+European	O	O
 troops	O	O
 to	O	O
 add	O	O
@@ -11119,7 +11119,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 The	O	O
-EU	O	I-ORG
+EU	I-ORG	I-ORG
 presidency	O	O
 ,	O	O
 held	O	O
@@ -11128,8 +11128,8 @@ by	O	O
 British	O	O
 Prime	O	O
 Minister	O	O
-Tony	I-DAT	I-PER
-Blair	I-DAT	I-PER
+Tony	I-ORG	I-PER
+Blair	I-ORG	I-PER
 ,	O	O
 issued	O	O
 a	O	O
@@ -11540,7 +11540,7 @@ home	O	O
 from	O	O
 Iraq	I-LOC	I-LOC
 and	O	O
-Afghanistan	I-DAT	I-LOC
+Afghanistan	I-LOC	I-LOC
 to	O	O
 help	O	O
 their	O	O
@@ -11998,8 +11998,8 @@ Turkey	I-LOC	I-ORG
 mainly	O	O
 Kurdish	O	O
 southeast	O	O
-since	O	O
-1984	I-DAT	I-DAT
+since	I-DAT	O
+1984	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -12293,7 +12293,7 @@ ENDPAD	O	O
 
 One	O	O
 of	O	O
-Italy	O	I-LOC
+Italy	I-ORG	I-LOC
 's	O	O
 most	O	O
 noted	O	O
@@ -12657,14 +12657,14 @@ visiting	O	O
 Spanish	O	O
 Prime	O	O
 Minister	O	O
-Jose	O	I-PER
-Luis	O	I-PER
-Rodriguez	O	I-PER
+Jose	I-ORG	I-PER
+Luis	I-ORG	I-PER
+Rodriguez	I-ORG	I-PER
 Zapatero	I-ORG	I-PER
 signed	O	O
 the	O	O
 agreement	O	O
-Tuesday	I-DAT	I-DAT
+Tuesday	I-LOC	I-DAT
 in	O	O
 Buenos	O	I-LOC
 Aires	O	I-LOC
@@ -12706,7 +12706,7 @@ the	O	O
 brother	O	O
 ,	O	O
 Abukar	O	I-PER
-Abdisalam	O	I-PER
+Abdisalam	I-LOC	I-PER
 ,	O	O
 was	O	O
 talking	O	O
@@ -12914,7 +12914,7 @@ Putin	I-LOC	I-ORG
 dismissed	O	O
 the	O	O
 government	O	O
-Wednesday	I-DAT	I-DAT
+Wednesday	I-LOC	I-DAT
 after	O	O
 Prime	O	O
 Minister	O	O
@@ -12969,7 +12969,7 @@ Broadway	O	I-LOC
 ,	O	O
 narrated	O	O
 by	O	O
-Elaine	I-DAT	I-PER
+Elaine	I-LOC	I-PER
 Lu	I-LOC	I-PER
 .	O	O
 ENDPAD	O	O
@@ -13027,7 +13027,7 @@ that	O	O
 want	O	O
 to	O	O
 destabilize	O	O
-Kosovo	O	I-LOC
+Kosovo	I-LOC	I-LOC
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -13072,7 +13072,7 @@ from	O	O
 AA	O	I-ORG
 to	O	O
 BBB	O	I-ORG
-Tuesday	I-DAT	I-DAT
+Tuesday	I-LOC	I-DAT
 ,	O	O
 on	O	O
 concerns	O	O
@@ -13159,11 +13159,11 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 President	O	O
-Bush	O	I-PER
+Bush	I-PER	I-PER
 will	O	O
 travel	O	O
 to	O	O
-Europe	O	I-LOC
+Europe	I-LOC	I-LOC
 in	O	O
 February	I-LOC	I-DAT
 for	O	O
@@ -13262,7 +13262,7 @@ ENDPAD	O	O
 
 The	O	O
 United	I-ORG	I-LOC
-States	I-ORG	I-LOC
+States	I-LOC	I-LOC
 has	O	O
 pledged	O	O
 millions	O	O
@@ -13331,7 +13331,7 @@ when	O	O
 the	O	O
 blasts	O	O
 occurred	O	O
-Tuesday	I-DAT	I-DAT
+Tuesday	I-LOC	I-DAT
 morning	I-DAT	I-TIM
 .	O	O
 ENDPAD	O	O
@@ -13735,7 +13735,7 @@ landfall	O	O
 on	O	O
 the	O	O
 southern	O	O
-end	I-DAT	O
+end	O	O
 of	O	O
 the	O	O
 peninsula	O	O
@@ -13776,7 +13776,7 @@ earthquake	O	O
 struck	O	O
 central	O	O
 Mexico	I-LOC	I-LOC
-Friday	I-DAT	I-DAT
+Friday	I-LOC	I-DAT
 ,	O	O
 forcing	O	O
 residents	O	O
@@ -14077,14 +14077,14 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 The	O	O
-U.S.	I-ORG	I-LOC
+U.S.	I-LOC	I-LOC
 military	O	O
 in	O	O
-Afghanistan	I-ORG	I-LOC
+Afghanistan	I-LOC	I-LOC
 says	O	O
 a	O	O
 U.S.	I-LOC	I-ORG
-Marine	I-DAT	I-ORG
+Marine	I-ORG	I-ORG
 and	O	O
 an	O	O
 American	O	O
@@ -14128,7 +14128,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 Mr.	I-ORG	I-LOC
-Ahmadinejad	I-PER	I-PER
+Ahmadinejad	I-ORG	I-PER
 sparked	O	O
 international	O	O
 outrage	O	O
@@ -14178,7 +14178,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 ENDPAD	O	O
 
-Kyrgyzstan	O	I-LOC
+Kyrgyzstan	I-PER	I-LOC
 's	O	O
 old	O	O
 parliament	O	O
@@ -14338,7 +14338,7 @@ held	O	O
 the	O	O
 Washington	I-LOC	I-LOC
 post	O	O
-since	O	I-DAT
+since	I-ORG	I-DAT
 1998	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
@@ -14453,8 +14453,8 @@ currently	O	O
 held	O	O
 by	O	O
 the	O	O
-Central	I-DAT	I-ORG
-Bank	I-DAT	I-ORG
+Central	I-LOC	I-ORG
+Bank	I-LOC	I-ORG
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -14485,7 +14485,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 Mr.	I-ORG	I-LOC
-Qureia	I-PER	I-PER
+Qureia	O	I-PER
 has	O	O
 been	O	O
 trying	O	O
@@ -14603,7 +14603,7 @@ VOA	I-LOC	I-ORG
 Studio	O	I-ORG
 7	I-ORG	O
 for	O	O
-Zimbabwe	I-LOC	I-ORG
+Zimbabwe	I-ORG	I-ORG
 that	O	O
 his	O	O
 team	O	O
@@ -14642,7 +14642,7 @@ police	O	O
 say	O	O
 Prime	O	O
 Minister	O	O
-Ehud	O	I-PER
+Ehud	I-LOC	I-PER
 Olmert	I-LOC	I-PER
 's	O	O
 personal	O	O
@@ -14760,7 +14760,7 @@ through	O	O
 the	O	O
 Khyber	I-LOC	I-ORG
 Pass	O	I-ORG
-Monday	I-DAT	I-DAT
+Monday	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -14795,7 +14795,7 @@ country	O	O
 dropped	O	O
 the	O	O
 "	O	O
-Western	O	I-ORG
+Western	I-LOC	I-ORG
 "	O	I-ORG
 from	O	O
 its	O	O
@@ -14898,7 +14898,7 @@ workers	O	O
 are	O	O
 killed	O	O
 each	O	I-DAT
-year	I-LOC	I-DAT
+year	I-DAT	I-DAT
 in	O	O
 fires	O	O
 ,	O	O
@@ -15016,8 +15016,8 @@ professor	O	O
 of	O	O
 Japanese	O	O
 at	O	O
-Lyon	O	I-ORG
-University	I-DAT	I-ORG
+Lyon	I-LOC	I-ORG
+University	I-LOC	I-ORG
 after	O	O
 he	O	O
 made	O	O
@@ -15051,7 +15051,7 @@ is	O	O
 in	O	O
 exile	O	O
 in	O	O
-South	I-ORG	I-LOC
+South	I-LOC	I-LOC
 Africa	I-LOC	I-LOC
 .	O	O
 ENDPAD	O	O
@@ -15097,10 +15097,10 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 President	O	O
-Bush	O	I-PER
+Bush	I-PER	I-PER
 says	O	O
 the	O	O
-United	I-ORG	I-LOC
+United	I-LOC	I-LOC
 States	I-LOC	I-LOC
 must	O	O
 change	O	O
@@ -15152,8 +15152,8 @@ India	I-ORG	I-LOC
 prepares	O	O
 to	O	O
 hold	O	O
-next	I-ORG	I-DAT
-month	I-ORG	I-DAT
+next	O	I-DAT
+month	I-LOC	I-DAT
 's	O	O
 state	O	O
 assembly	O	O
@@ -15207,7 +15207,7 @@ from	O	O
 U.S.-led	O	O
 coalition	O	O
 forces	O	O
-this	O	I-DAT
+this	I-DAT	I-DAT
 week	I-DAT	I-DAT
 in	O	O
 six	O	O
@@ -15251,7 +15251,7 @@ ENDPAD	O	O
 
 They	O	O
 accused	O	O
-China	I-ORG	I-LOC
+China	I-LOC	I-LOC
 of	O	O
 a	O	O
 "	O	O
@@ -15369,7 +15369,7 @@ Jamie	O	I-PER
 Foxx	O	I-PER
 brought	O	O
 home	O	O
-Best	I-DAT	O
+Best	I-LOC	O
 Male	O	O
 Album	O	O
 honors	O	O
@@ -15460,7 +15460,7 @@ West	I-ORG	I-ORG
 African	O	O
 nation	O	O
 of	O	O
-Guinea	O	I-LOC
+Guinea	I-ORG	I-LOC
 ,	O	O
 there	O	O
 are	O	O
@@ -15525,7 +15525,7 @@ over	O	O
 the	O	I-DAT
 next	I-DAT	I-DAT
 few	I-DAT	I-DAT
-months	I-DAT	I-DAT
+months	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -15563,7 +15563,7 @@ as	O	O
 much	O	O
 as	O	O
 one	O	O
-percent	O	I-PCT
+percent	I-LOC	I-PCT
 as	O	O
 Thursday	I-LOC	I-DAT
 's	O	O
@@ -15657,7 +15657,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 ENDPAD	O	O
 
-U.S.	I-ORG	I-LOC
+U.S.	I-LOC	I-LOC
 officials	O	O
 say	O	O
 more	O	O
@@ -15931,8 +15931,8 @@ supporters	O	O
 of	O	O
 Pakistani	O	I-LOC
 President	O	O
-Pervez	O	I-PER
-Musharraf	I-DAT	I-PER
+Pervez	I-LOC	I-PER
+Musharraf	I-LOC	I-PER
 's	O	O
 party	O	O
 ,	O	O
@@ -16131,7 +16131,7 @@ an	O	O
 American	O	O
 missionary	O	O
 kidnapped	O	O
-Thursday	I-DAT	I-DAT
+Thursday	I-LOC	I-DAT
 in	O	O
 a	O	O
 separate	O	O
@@ -16422,13 +16422,13 @@ ENDPAD	O	O
 ENDPAD	O	O
 ENDPAD	O	O
 
-Venezuela	I-ORG	I-LOC
+Venezuela	I-PER	I-LOC
 has	O	O
 already	O	O
 purchased	O	O
 $	I-LOC	I-MON
 3	O	I-MON
-billion	O	I-MON
+billion	I-ORG	I-MON
 in	O	O
 Russian	O	O
 fighter	O	O
@@ -16476,7 +16476,7 @@ ENDPAD	O	O
 Democratic	I-ORG	I-LOC
 Republic	I-ORG	I-LOC
 of	O	I-LOC
-Congo	I-ORG	I-LOC
+Congo	I-PER	I-LOC
 troops	O	O
 who	O	O
 are	O	O
@@ -16538,11 +16538,11 @@ at	O	O
 a	O	O
 mosque	O	O
 during	O	O
-Friday	I-DAT	I-DAT
+Friday	I-LOC	I-DAT
 prayers	O	O
 in	O	O
 Indian	O	I-LOC
-Kashmir	I-DAT	I-LOC
+Kashmir	I-LOC	I-LOC
 ,	O	O
 an	O	O
 attack	O	O
@@ -16578,7 +16578,7 @@ ENDPAD	O	O
 The	O	O
 first	O	O
 Roman	O	I-PER
-Catholic	O	I-PER
+Catholic	I-ORG	I-PER
 priest	O	O
 to	O	O
 serve	O	O
@@ -16642,12 +16642,12 @@ counterpart	O	O
 ,	O	O
 Luis	O	I-PER
 Inacio	I-DAT	I-PER
-Lula	I-DAT	I-PER
-da	I-DAT	I-PER
-Silva	I-DAT	I-PER
+Lula	I-ORG	I-PER
+da	I-ORG	I-PER
+Silva	I-ORG	I-PER
 ,	O	O
 in	O	O
-Brasilia	O	I-LOC
+Brasilia	I-LOC	I-LOC
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -16681,7 +16681,7 @@ Discovered	O	O
 and	O	O
 claimed	O	O
 for	O	O
-Spain	O	I-LOC
+Spain	I-LOC	I-LOC
 in	O	O
 1499	O	I-DAT
 ,	O	O
@@ -16899,7 +16899,7 @@ for	O	O
 more	O	O
 than	O	O
 a	O	O
-year	I-DAT	I-DAT
+year	I-LOC	I-DAT
 ,	O	O
 after	O	O
 an	O	O
@@ -16909,7 +16909,7 @@ ousted	O	O
 President	O	O
 Jean-	O	O
 Bertrand	O	I-PER
-Aristide	O	I-PER
+Aristide	I-LOC	I-PER
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -16948,7 +16948,7 @@ leaders	O	O
 to	O	O
 boycott	O	O
 the	O	O
-2008	I-DAT	I-DAT
+2008	I-LOC	I-DAT
 Olympics	I-DAT	O
 opening	O	O
 ceremonies	O	O
@@ -17266,7 +17266,7 @@ wounding	O	O
 others	O	O
 ,	O	O
 near	O	O
-Cairo	O	I-LOC
+Cairo	I-LOC	I-LOC
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -17504,7 +17504,7 @@ Aruba	O	I-LOC
 's	O	O
 request	O	O
 in	O	O
-1990	O	I-DAT
+1990	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -17855,7 +17855,7 @@ a	O	O
 family	O	O
 band	O	O
 in	O	O
-West	I-ORG	I-LOC
+West	I-LOC	I-LOC
 Africa	I-LOC	I-LOC
 ,	O	O
 leader	O	O
@@ -17911,7 +17911,7 @@ who	O	O
 supported	O	O
 candidate	O	O
 Rene	O	I-PER
-Preval	O	I-PER
+Preval	I-DAT	I-PER
 of	O	O
 manipulating	O	O
 the	O	O
@@ -17972,7 +17972,7 @@ Frankfurt	O	I-LOC
 ,	O	O
 Germany	I-LOC	I-LOC
 in	O	O
-2003	I-DAT	I-DAT
+2003	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -18107,7 +18107,7 @@ ENDPAD	O	O
 
 Lawyers	O	O
 in	O	O
-Pakistan	I-ORG	I-LOC
+Pakistan	I-LOC	I-LOC
 continued	O	O
 their	O	O
 protest	O	O
@@ -18130,8 +18130,8 @@ last	I-DAT	I-DAT
 year	I-DAT	I-DAT
 by	O	O
 President	O	O
-Pervez	I-DAT	I-PER
-Musharraf	I-DAT	I-PER
+Pervez	I-ORG	I-PER
+Musharraf	I-LOC	I-PER
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -18162,7 +18162,7 @@ English	O	O
 settlers	O	O
 from	O	O
 Saint	I-ORG	I-LOC
-Kitts	O	I-LOC
+Kitts	I-ORG	I-LOC
 in	O	O
 1650	O	I-DAT
 ,	O	O
@@ -18170,12 +18170,12 @@ Anguilla	O	I-LOC
 was	O	O
 administered	O	O
 by	O	O
-Great	O	I-LOC
+Great	I-ORG	I-LOC
 Britain	I-LOC	I-LOC
-until	O	O
+until	I-ORG	O
 the	O	I-DAT
-early	I-DAT	I-DAT
-19th	I-DAT	I-DAT
+early	I-ORG	I-DAT
+19th	I-ORG	I-DAT
 century	I-DAT	I-DAT
 ,	O	O
 when	O	O
@@ -18198,7 +18198,7 @@ British	O	O
 dependency	O	O
 along	O	O
 with	O	O
-Saint	I-DAT	I-PER
+Saint	I-LOC	I-PER
 Kitts	I-DAT	I-PER
 and	O	I-PER
 Nevis	I-DAT	I-PER
@@ -18320,7 +18320,7 @@ who	O	O
 made	O	O
 the	O	O
 comments	O	O
-Wednesday	I-DAT	I-DAT
+Wednesday	I-LOC	I-DAT
 in	O	O
 a	O	O
 speech	O	O
@@ -18463,7 +18463,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 The	O	O
-U.S.	I-ORG	I-LOC
+U.S.	I-LOC	I-LOC
 military	O	O
 said	O	O
 the	O	O
@@ -18571,9 +18571,9 @@ airlines	O	O
 ,	O	O
 United	I-LOC	I-ORG
 Eagle	O	I-ORG
-Airlines	I-DAT	I-ORG
+Airlines	I-ORG	I-ORG
 and	O	O
-Air	I-DAT	I-ORG
+Air	I-ORG	I-ORG
 Spring	O	I-ORG
 ,	O	O
 reportedly	O	O
@@ -18596,7 +18596,7 @@ by	O	O
 the	O	O
 Civil	O	I-ORG
 Aviation	O	I-ORG
-Administration	O	I-ORG
+Administration	I-DAT	I-ORG
 of	O	I-ORG
 China	I-LOC	I-ORG
 .	O	O
@@ -18678,12 +18678,12 @@ her	O	O
 work	O	O
 at	O	O
 the	O	I-LOC
-Embassy	O	I-LOC
+Embassy	I-LOC	I-LOC
 of	O	I-LOC
-Argentina	I-DAT	I-LOC
+Argentina	I-LOC	I-LOC
 in	O	O
-Washington	I-DAT	I-LOC
-later	I-DAT	I-DAT
+Washington	I-LOC	I-LOC
+later	I-ORG	I-DAT
 this	I-DAT	I-DAT
 month	I-DAT	I-DAT
 .	O	O
@@ -18820,7 +18820,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 Three	O	I-DAT
-years	O	I-DAT
+years	I-ORG	I-DAT
 ago	I-ORG	I-DAT
 ,	O	O
 New	I-ORG	I-LOC
@@ -18934,8 +18934,8 @@ in	O	O
 Mexico	I-LOC	I-LOC
 and	O	O
 the	O	O
-United	I-DAT	I-LOC
-States	I-DAT	I-LOC
+United	I-LOC	I-LOC
+States	I-LOC	I-LOC
 ,	O	O
 and	O	O
 aims	O	O
@@ -18946,7 +18946,7 @@ dependence	O	O
 on	O	O
 the	O	O
 United	I-LOC	I-LOC
-States	I-DAT	I-LOC
+States	I-LOC	I-LOC
 for	O	O
 export	O	O
 sales	O	O
@@ -19074,11 +19074,11 @@ ENDPAD	O	O
 ENDPAD	O	O
 ENDPAD	O	O
 
-Mandy	O	I-PER
-Clark	I-ORG	I-PER
+Mandy	I-ORG	I-PER
+Clark	I-PER	I-PER
 reports	O	O
 from	O	O
-Beijing	I-ORG	I-LOC
+Beijing	I-LOC	I-LOC
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -19137,7 +19137,7 @@ with	O	O
 identical	O	O
 records	O	O
 in	O	O
-Turin	O	I-ORG
+Turin	I-LOC	I-ORG
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -19380,7 +19380,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 ENDPAD	O	O
 
-Sweden	O	I-ORG
+Sweden	I-ORG	I-ORG
 joined	O	O
 the	O	O
 EU	I-ORG	I-ORG
@@ -19539,7 +19539,7 @@ Chrysler	I-PER	I-PER
 has	O	O
 opened	O	O
 a	O	O
-$	I-ORG	I-MON
+$	I-LOC	I-MON
 570	O	I-MON
 million	O	I-MON
 engine	O	O
@@ -19748,7 +19748,7 @@ the	O	O
 popular	O	O
 rock	O	O
 act	O	O
-Boston	O	I-LOC
+Boston	I-LOC	I-LOC
 ,	O	O
 was	O	O
 apparently	O	O
@@ -19789,7 +19789,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 Saint	I-ORG	I-ORG
-Martin	O	I-ORG
+Martin	I-PER	I-ORG
 is	O	O
 reported	O	O
 to	O	O
@@ -19801,7 +19801,7 @@ capita	O	O
 income	O	O
 in	O	O
 the	O	O
-Caribbean	I-LOC	I-LOC
+Caribbean	O	I-LOC
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -20044,7 +20044,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 Paul	I-ORG	I-PER
-Burge	O	I-PER
+Burge	I-PER	I-PER
 has	O	O
 the	O	O
 story	O	O
@@ -20121,8 +20121,8 @@ has	O	O
 helped	O	O
 over	O	O
 the	O	O
-past	O	I-DAT
-decade	O	I-DAT
+past	I-DAT	I-DAT
+decade	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -20363,7 +20363,7 @@ day	O	O
 in	O	O
 the	O	O
 Mid-Atlantic	O	O
-U.S.	I-DAT	I-ORG
+U.S.	I-LOC	I-ORG
 State	I-DAT	I-ORG
 of	O	I-ORG
 Maryland	O	I-ORG
@@ -20400,7 +20400,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 ENDPAD	O	O
 
-India	I-ORG	I-LOC
+India	I-PER	I-LOC
 has	O	O
 frequent	O	O
 road	O	O
@@ -20470,7 +20470,7 @@ part	O	O
 of	O	O
 the	O	O
 city	O	O
-Wednesday	I-DAT	I-DAT
+Wednesday	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -20521,7 +20521,7 @@ legislative	O	O
 elections	O	O
 scheduled	O	O
 on	O	O
-September	I-DAT	I-DAT
+September	I-LOC	I-DAT
 18	I-DAT	I-DAT
 .	O	O
 ENDPAD	O	O
@@ -20572,7 +20572,7 @@ an	O	O
 18-story	O	O
 building	O	O
 in	O	O
-March	I-DAT	I-DAT
+March	I-LOC	I-DAT
 that	O	O
 killed	O	O
 two	O	O
@@ -20757,7 +20757,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 ENDPAD	O	O
 
-Afghanistan	I-ORG	O
+Afghanistan	I-PER	O
 remains	O	O
 littered	O	O
 with	O	O
@@ -20867,7 +20867,7 @@ time	O	O
 a	O	O
 former	O	O
 top	O	O
-Bush	O	I-PER
+Bush	I-LOC	I-PER
 aide	O	O
 is	O	O
 making	O	O
@@ -21077,8 +21077,8 @@ from	O	O
 Mexico	I-LOC	I-LOC
 and	O	O
 the	O	O
-United	I-DAT	I-LOC
-States	I-DAT	I-LOC
+United	I-LOC	I-LOC
+States	I-LOC	I-LOC
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -21523,7 +21523,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 The	O	O
-U.S.	I-ORG	I-LOC
+U.S.	I-LOC	I-LOC
 media	O	O
 seized	O	O
 on	O	O
@@ -21575,7 +21575,7 @@ ENDPAD	O	O
 
 Pope	O	O
 John	I-ORG	I-PER
-Paul	I-ORG	I-PER
+Paul	I-PER	I-PER
 says	O	O
 he	O	O
 is	O	O
@@ -21855,7 +21855,7 @@ Memorial	O	I-DAT
 Day	I-DAT	I-DAT
 holiday	O	O
 honoring	O	O
-U.S.	I-DAT	I-LOC
+U.S.	I-LOC	I-LOC
 military	O	O
 personnel	O	O
 killed	O	O
@@ -22084,7 +22084,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 The	O	O
-U.S.	I-ORG	I-LOC
+U.S.	I-LOC	I-LOC
 military	O	O
 says	O	O
 a	O	O
@@ -22138,7 +22138,7 @@ Kingfisher	O	I-PER
 ,	O	O
 owned	O	O
 by	O	O
-India	I-ORG	I-ORG
+India	I-LOC	I-ORG
 's	O	O
 largest	O	O
 beer	O	O
@@ -22456,7 +22456,7 @@ ocean	O	O
 the	O	O
 Coral	O	I-ORG
 Sea	I-DAT	I-ORG
-Islands	I-DAT	I-ORG
+Islands	I-LOC	I-ORG
 were	O	O
 declared	O	O
 a	O	O
@@ -22899,14 +22899,14 @@ ENDPAD	O	O
 ENDPAD	O	O
 ENDPAD	O	O
 
-France	I-ORG	I-LOC
+France	I-PER	I-LOC
 has	O	O
 been	O	O
 on	O	O
 high	O	O
 alert	O	O
 since	O	I-DAT
-July	I-LOC	I-DAT
+July	I-DAT	I-DAT
 ,	O	O
 when	O	O
 Islamist	O	O
@@ -22915,7 +22915,7 @@ bombers	O	O
 killed	O	O
 more	O	O
 than	O	O
-50	O	O
+50	I-LOC	O
 people	O	O
 in	O	O
 attacks	O	O
@@ -22958,8 +22958,8 @@ Jerusalem	O	I-LOC
 issued	O	O
 a	O	O
 statement	O	O
-Wednesday	I-DAT	I-DAT
-morning	I-DAT	I-TIM
+Wednesday	I-LOC	I-DAT
+morning	I-ORG	I-TIM
 ,	O	O
 saying	O	O
 the	O	O
@@ -23107,7 +23107,7 @@ It	O	O
 joined	O	O
 the	O	O
 Malaysian	O	I-LOC
-Federation	I-ORG	I-LOC
+Federation	I-LOC	I-LOC
 in	O	O
 1963	O	I-DAT
 but	O	O
@@ -23227,7 +23227,7 @@ since	O	O
 it	O	O
 began	O	O
 in	O	O
-1996	O	I-DAT
+1996	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -23263,7 +23263,7 @@ to	O	O
 France	I-ORG	I-LOC
 says	O	O
 Mr.	I-LOC	I-ORG
-Yoadimnadji	O	I-ORG
+Yoadimnadji	I-ORG	I-ORG
 died	O	O
 Friday	I-LOC	I-DAT
 from	O	O
@@ -23513,7 +23513,7 @@ ENDPAD	O	O
 
 New	I-ORG	I-LOC
 York	I-ORG	I-LOC
-City	I-ORG	I-LOC
+City	I-PER	I-LOC
 ,	O	O
 among	O	O
 the	O	O
@@ -24082,7 +24082,7 @@ unit	O	O
 commander	O	O
 for	O	O
 the	O	O
-Revolutionary	I-DAT	O
+Revolutionary	I-LOC	O
 Armed	I-DAT	O
 Forces	O	O
 of	O	O
@@ -24279,7 +24279,7 @@ ENDPAD	O	O
 Election	O	O
 officials	O	O
 in	O	O
-Haiti	I-ORG	I-LOC
+Haiti	I-LOC	I-LOC
 have	O	O
 scheduled	O	O
 runoff	O	O
@@ -24291,7 +24291,7 @@ legislative	O	O
 assembly	O	O
 for	O	O
 late	I-DAT	I-DAT
-April	I-DAT	I-DAT
+April	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -24431,8 +24431,8 @@ ENDPAD	O	O
 
 VOA	I-ORG	I-ORG
 's	O	I-ORG
-Behnam	O	I-ORG
-Nateghi	O	I-ORG
+Behnam	I-ORG	I-ORG
+Nateghi	I-PER	I-ORG
 takes	O	O
 us	O	O
 behind	O	O
@@ -24583,22 +24583,22 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 Gerard	O	I-PER
-Rechnitzer	O	I-PER
+Rechnitzer	I-PER	I-PER
 claims	O	O
 he	O	O
 and	O	O
 his	O	O
 girlfriend	O	O
 encountered	O	O
-Combs	O	I-PER
+Combs	I-LOC	I-PER
 in	O	O
 Hollywood	I-LOC	I-LOC
 's	O	O
 Roosevelt	O	I-PER
 Hotel	O	O
 on	O	O
-February	I-DAT	I-DAT
-25	I-DAT	I-DAT
+February	I-LOC	I-DAT
+25	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -24646,7 +24646,7 @@ with	O	O
 Afghan	O	O
 President	O	O
 Hamid	I-LOC	I-PER
-Karzai	O	I-PER
+Karzai	I-ORG	I-PER
 ,	O	O
 who	O	O
 arrived	O	O
@@ -24700,10 +24700,10 @@ long	O	O
 containers	O	O
 to	O	O
 the	O	O
-South	I-DAT	I-LOC
-African	O	I-LOC
+South	I-LOC	I-LOC
+African	I-DAT	I-LOC
 Red	I-DAT	I-LOC
-Cross	I-DAT	I-LOC
+Cross	I-ORG	I-LOC
 for	O	O
 distribution	O	O
 in	O	O
@@ -24740,7 +24740,7 @@ last	I-ORG	O
 decades	O	O
 of	O	O
 the	O	O
-20th	I-ORG	I-DAT
+20th	O	I-DAT
 century	I-ORG	I-DAT
 saw	O	O
 a	O	O
@@ -24797,7 +24797,7 @@ forced	O	O
 the	O	O
 postponement	O	O
 of	O	O
-Preval	O	I-PER
+Preval	I-LOC	I-PER
 's	O	O
 inauguration	O	O
 ,	O	O
@@ -24805,8 +24805,8 @@ which	O	O
 was	O	O
 scheduled	O	O
 for	O	O
-March	I-DAT	I-DAT
-29	I-DAT	I-DAT
+March	I-LOC	I-DAT
+29	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -24952,7 +24952,7 @@ bankruptcy	O	O
 in	O	O
 the	O	O
 United	I-LOC	I-LOC
-States	I-DAT	I-LOC
+States	I-LOC	I-LOC
 ,	O	O
 and	O	O
 has	O	O
@@ -25056,10 +25056,10 @@ Bosnia	O	I-LOC
 and	O	O
 Herzegovina	O	I-LOC
 ,	O	O
-Serbia	O	I-LOC
+Serbia	I-LOC	I-LOC
 and	O	O
-Kosovo	I-DAT	I-LOC
-later	I-DAT	I-DAT
+Kosovo	I-ORG	I-LOC
+later	I-ORG	I-DAT
 this	I-DAT	I-DAT
 month	I-DAT	I-DAT
 .	O	O
@@ -25199,13 +25199,13 @@ Hong	I-ORG	I-LOC
 Kong	I-ORG	I-LOC
 's	O	O
 Hang	O	I-LOC
-Seng	I-ORG	I-LOC
+Seng	O	I-LOC
 index	O	O
 gained	O	O
 just	O	O
 over	O	O
 one	O	O
-percent	O	I-PCT
+percent	I-LOC	I-PCT
 by	O	O
 the	O	O
 close	O	O
@@ -25311,8 +25311,8 @@ McDonald	I-LOC	I-ORG
 's	O	I-ORG
 restaurant	O	O
 in	O	O
-St.	I-DAT	I-LOC
-Petersburg	I-DAT	I-LOC
+St.	I-LOC	I-LOC
+Petersburg	I-LOC	I-LOC
 ,	O	O
 injuring	O	O
 six	O	O
@@ -25357,7 +25357,7 @@ be	O	O
 getting	O	O
 married	O	O
 by	O	O
-year	I-LOC	I-DAT
+year	I-DAT	I-DAT
 's	O	I-DAT
 end	O	I-DAT
 .	O	O
@@ -25402,7 +25402,7 @@ As	O	O
 VOA	I-ORG	I-ORG
 's	O	O
 Melinda	I-ORG	I-PER
-Smith	I-ORG	I-PER
+Smith	I-PER	I-PER
 reports	O	O
 ,	O	O
 the	O	O
@@ -25920,7 +25920,7 @@ Burmese	O	I-LOC
 in	O	O
 the	O	O
 United	I-LOC	I-LOC
-States	I-DAT	I-LOC
+States	I-LOC	I-LOC
 is	O	O
 learning	O	O
 the	O	O
@@ -26282,8 +26282,8 @@ through	O	O
 most	O	O
 of	O	O
 the	O	I-DAT
-20th	I-DAT	I-DAT
-century	I-DAT	I-DAT
+20th	O	I-DAT
+century	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -26325,10 +26325,10 @@ bird	O	O
 flu	O	O
 in	O	O
 a	O	O
-Jakarta	O	I-LOC
+Jakarta	I-LOC	I-LOC
 hospital	O	O
 Saturday	I-DAT	I-DAT
-night	I-DAT	I-TIM
+night	I-LOC	I-TIM
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -26424,7 +26424,7 @@ detained	O	O
 at	O	O
 a	O	O
 Moscow	I-LOC	I-LOC
-airport	I-LOC	O
+airport	I-DAT	O
 in	O	O
 August	I-DAT	I-DAT
 last	I-DAT	I-DAT
@@ -26482,7 +26482,7 @@ card	O	O
 debt	O	O
 grew	O	O
 between	O	O
-2001	I-DAT	I-DAT
+2001	I-LOC	I-DAT
 and	O	I-DAT
 early	I-DAT	I-DAT
 2006	I-DAT	I-DAT
@@ -26739,7 +26739,7 @@ UK	I-LOC	I-ORG
 to	O	O
 Australia	I-LOC	I-ORG
 in	O	O
-1947	I-LOC	I-DAT
+1947	O	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -26793,8 +26793,8 @@ the	O	O
 Brazilian	O	O
 city	O	O
 of	O	O
-Sao	I-DAT	I-LOC
-Paulo	I-DAT	I-LOC
+Sao	I-LOC	I-LOC
+Paulo	I-LOC	I-LOC
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -26827,7 +26827,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 Under	O	O
-Ukraine	O	I-LOC
+Ukraine	I-ORG	I-LOC
 's	O	O
 constitution	O	O
 ,	O	O
@@ -26881,7 +26881,7 @@ Kuwait	O	I-LOC
 passed	O	O
 a	O	O
 law	O	O
-last	I-LOC	I-DAT
+last	I-ORG	I-DAT
 year	I-DAT	I-DAT
 granting	O	O
 women	O	O
@@ -26929,7 +26929,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 Mr.	I-ORG	I-PER
-Papadopoulos	O	I-PER
+Papadopoulos	I-PER	I-PER
 said	O	O
 detecting	O	O
 the	O	O
@@ -26989,12 +26989,12 @@ were	O	O
 led	O	O
 by	O	O
 U.S.	I-LOC	I-ORG
-Deputy	I-DAT	I-ORG
+Deputy	I-ORG	I-ORG
 Assistant	O	I-ORG
 Secretary	O	O
 of	O	O
 Defense	O	I-ORG
-Jerry	O	I-ORG
+Jerry	I-ORG	I-ORG
 Jennings	O	I-ORG
 .	O	O
 ENDPAD	O	O
@@ -27030,7 +27030,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 ENDPAD	O	O
 
-Somalia	I-ORG	I-LOC
+Somalia	I-PER	I-LOC
 has	O	O
 been	O	O
 continuously	O	O
@@ -27042,9 +27042,9 @@ the	O	O
 fall	O	O
 of	O	O
 dictator	O	O
-Mohamed	I-DAT	I-PER
-Siad	I-DAT	I-PER
-Barre	I-DAT	I-PER
+Mohamed	I-LOC	I-PER
+Siad	I-ORG	I-PER
+Barre	I-ORG	I-PER
 in	O	O
 1991	I-LOC	I-DAT
 .	O	O
@@ -27198,7 +27198,7 @@ and	O	O
 troops	O	O
 during	O	O
 the	O	I-DAT
-past	O	I-DAT
+past	I-LOC	I-DAT
 year	I-DAT	I-DAT
 .	O	O
 ENDPAD	O	O
@@ -27293,7 +27293,7 @@ of	O	O
 more	O	O
 than	O	O
 $	I-LOC	I-MON
-2	I-DAT	I-MON
+2	I-LOC	I-MON
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -27451,8 +27451,8 @@ candidates	O	O
 vying	O	O
 to	O	O
 succeed	O	O
-Mr.	I-DAT	I-LOC
-Chirac	I-DAT	I-PER
+Mr.	I-LOC	I-LOC
+Chirac	I-LOC	I-PER
 are	O	O
 Socialist	O	O
 leader	O	O
@@ -27542,7 +27542,7 @@ ENDPAD	O	O
 
 Ten	O	I-DAT
 years	I-ORG	I-DAT
-ago	I-ORG	I-DAT
+ago	I-PER	I-DAT
 ,	O	O
 another	O	O
 study	O	O
@@ -27754,7 +27754,7 @@ the	O	O
 military	O	O
 said	O	O
 Neftaly	O	I-PER
-Platero	O	I-PER
+Platero	I-LOC	I-PER
 has	O	O
 also	O	O
 been	O	O
@@ -27853,7 +27853,7 @@ in	O	O
 Hong	I-LOC	I-LOC
 Kong	I-LOC	I-LOC
 ,	O	O
-Jakarta	I-ORG	I-LOC
+Jakarta	I-LOC	I-LOC
 ,	O	O
 Manila	O	I-LOC
 ,	O	O
@@ -27861,9 +27861,9 @@ Mumbai	I-LOC	I-LOC
 ,	O	O
 Seoul	O	I-LOC
 ,	O	O
-Sydney	O	I-LOC
+Sydney	I-LOC	I-LOC
 and	O	O
-Wellington	O	I-LOC
+Wellington	I-LOC	I-LOC
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -28011,13 +28011,13 @@ were	O	O
 members	O	O
 of	O	O
 the	O	O
-Revolutionary	O	I-ORG
+Revolutionary	I-LOC	I-ORG
 Armed	I-DAT	I-ORG
 Forces	O	O
 of	O	O
-Colombia	I-DAT	I-LOC
+Colombia	I-LOC	I-LOC
 (	O	O
-FARC	I-DAT	O
+FARC	I-LOC	O
 )	O	O
 .	O	O
 ENDPAD	O	O
@@ -28222,7 +28222,7 @@ city	O	O
 of	O	O
 Karachi	I-LOC	I-LOC
 on	O	O
-Saturday	I-DAT	I-DAT
+Saturday	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -28316,8 +28316,8 @@ a	O	O
 massive	O	O
 brain	O	O
 hemorrhage	O	O
-January	I-DAT	I-DAT
-4	I-DAT	I-DAT
+January	I-LOC	I-DAT
+4	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -28624,7 +28624,7 @@ suspected	O	O
 members	O	O
 of	O	O
 the	O	O
-Islamic	O	I-LOC
+Islamic	I-LOC	I-LOC
 militant	O	O
 group	O	O
 Ansar	O	I-PER
@@ -28688,7 +28688,7 @@ Russian	O	O
 Soyuz	O	O
 rocket	O	O
 on	O	O
-8	I-DAT	I-DAT
+8	I-LOC	I-DAT
 April	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
@@ -28765,7 +28765,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 Amnesty	O	O
-International	I-ORG	O
+International	I-PER	O
 is	O	O
 calling	O	O
 on	O	O
@@ -29079,7 +29079,7 @@ Massachusetts	O	I-ORG
 General	I-LOC	I-ORG
 Hospital	O	I-ORG
 in	O	O
-Boston	O	I-LOC
+Boston	I-LOC	I-LOC
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -29134,7 +29134,7 @@ struck	O	O
 about	O	O
 30	O	I-TIM
 minutes	O	I-TIM
-later	I-DAT	O
+later	I-LOC	O
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -29275,7 +29275,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 As	O	O
-Brian	I-ORG	I-PER
+Brian	O	I-PER
 Padden	O	I-PER
 reports	O	O
 ,	O	O
@@ -29331,7 +29331,7 @@ Embassy	I-ORG	I-ORG
 in	O	O
 Riyadh	O	I-LOC
 ,	O	O
-Saudi	O	I-LOC
+Saudi	I-ORG	I-LOC
 Arabia	I-ORG	I-LOC
 ,	O	O
 and	O	O
@@ -29398,7 +29398,7 @@ the	O	O
 deadly	O	O
 rampage	O	O
 early	I-DAT	I-DAT
-Tuesday	I-DAT	I-DAT
+Tuesday	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -29532,7 +29532,7 @@ ENDPAD	O	O
 Security	O	O
 forces	O	O
 in	O	O
-Indonesia	O	I-LOC
+Indonesia	I-LOC	I-LOC
 are	O	O
 on	O	O
 guard	O	O
@@ -29794,7 +29794,7 @@ is	O	O
 to	O	O
 be	O	O
 held	O	O
-today	O	I-DAT
+today	I-LOC	I-DAT
 ,	O	O
 which	O	O
 will	O	O
@@ -29848,7 +29848,7 @@ but	O	O
 ended	O	O
 higher	O	O
 in	O	O
-Bangkok	O	I-LOC
+Bangkok	I-LOC	I-LOC
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -29994,7 +29994,7 @@ island	O	O
 was	O	O
 named	O	O
 for	O	O
-John	O	I-PER
+John	I-LOC	I-PER
 CLIPPERTON	O	I-PER
 ,	O	O
 a	O	O
@@ -30008,7 +30008,7 @@ early	I-LOC	I-DAT
 in	O	I-DAT
 the	O	I-DAT
 18th	I-DAT	I-DAT
-century	I-DAT	I-DAT
+century	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -30040,7 +30040,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 A	O	O
-State	I-ORG	I-ORG
+State	O	I-ORG
 Department	I-ORG	I-ORG
 official	O	O
 ,	O	O
@@ -30053,7 +30053,7 @@ identified	O	O
 ,	O	O
 said	O	O
 25-year-old	O	O
-Brian	O	I-PER
+Brian	I-LOC	I-PER
 Adkins	I-LOC	I-PER
 was	O	O
 found	O	O
@@ -30144,7 +30144,7 @@ ENDPAD	O	O
 Venezuelan	O	O
 President	O	O
 Hugo	I-ORG	I-PER
-Chavez	I-ORG	I-PER
+Chavez	I-PER	I-PER
 has	O	O
 extended	O	O
 electricity	O	O
@@ -30244,7 +30244,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 Sam	I-ORG	I-PER
-Beattie	I-ORG	I-PER
+Beattie	I-PER	I-PER
 reports	O	O
 from	O	O
 Jing	O	I-PER
@@ -30252,7 +30252,7 @@ Jing	O	I-PER
 's	O	O
 home	O	O
 in	O	O
-Sichuan	O	I-LOC
+Sichuan	I-LOC	I-LOC
 province	O	O
 .	O	O
 ENDPAD	O	O
@@ -30403,7 +30403,7 @@ blast	O	O
 occurred	O	O
 before	O	I-TIM
 dawn	O	I-TIM
-Thursday	I-DAT	I-DAT
+Thursday	I-LOC	I-DAT
 at	O	O
 a	O	O
 mine	O	O
@@ -30457,7 +30457,7 @@ region	O	O
 ,	O	O
 where	O	O
 the	O	O
-October	I-DAT	I-DAT
+October	I-LOC	I-DAT
 8	I-DAT	I-DAT
 quake	O	I-DAT
 last	I-DAT	I-DAT
@@ -30610,7 +30610,7 @@ finding	O	O
 an	O	O
 outlet	O	O
 in	O	O
-Miami	I-LOC	I-LOC
+Miami	O	I-LOC
 ,	O	O
 despite	O	O
 objections	O	O
@@ -30768,7 +30768,7 @@ and	O	O
 free	O	O
 elections	O	O
 in	O	O
-1993	I-LOC	I-DAT
+1993	O	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -31114,7 +31114,7 @@ Kuwait	O	I-LOC
 's	O	O
 ambassador	O	O
 to	O	O
-Lebanon	I-ORG	I-LOC
+Lebanon	I-LOC	I-LOC
 says	O	O
 a	O	O
 hand	O	O
@@ -31272,7 +31272,7 @@ space	O	O
 forces	O	O
 ,	O	O
 Alexei	O	I-PER
-Kuznetsov	O	I-PER
+Kuznetsov	I-LOC	I-PER
 ,	O	O
 said	O	O
 the	O	O
@@ -31520,7 +31520,7 @@ ENDPAD	O	O
 
 The	O	O
 Arctic	O	I-LOC
-Ocean	I-ORG	I-LOC
+Ocean	O	I-LOC
 is	O	O
 the	O	O
 smallest	O	O
@@ -31533,21 +31533,21 @@ oceans	O	O
 (	O	O
 after	O	O
 the	O	O
-Pacific	I-DAT	I-LOC
-Ocean	I-DAT	I-LOC
+Pacific	I-LOC	I-LOC
+Ocean	I-LOC	I-LOC
 ,	O	O
-Atlantic	I-DAT	I-LOC
-Ocean	I-DAT	I-LOC
+Atlantic	I-ORG	I-LOC
+Ocean	I-LOC	I-LOC
 ,	O	O
 Indian	O	I-LOC
-Ocean	I-DAT	I-LOC
+Ocean	I-LOC	I-LOC
 ,	O	O
 and	O	O
 the	O	O
 recently	O	O
 delimited	O	O
-Southern	I-DAT	I-LOC
-Ocean	I-DAT	I-LOC
+Southern	I-LOC	I-LOC
+Ocean	I-LOC	I-LOC
 )	O	O
 .	O	O
 ENDPAD	O	O
@@ -31591,8 +31591,8 @@ briefly	O	O
 ousted	O	O
 populist	O	O
 president	O	O
-Hugo	I-DAT	I-PER
-Chavez	I-DAT	I-PER
+Hugo	I-LOC	I-PER
+Chavez	I-LOC	I-PER
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -31640,8 +31640,8 @@ were	O	O
 fired	O	O
 elsewhere	O	O
 in	O	O
-Mogadishu	I-DAT	I-LOC
-Wednesday	I-DAT	I-DAT
+Mogadishu	I-LOC	I-LOC
+Wednesday	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -31780,7 +31780,7 @@ Kollock	O	I-LOC
 reports	O	O
 from	O	O
 New	I-ORG	I-LOC
-York	I-ORG	I-LOC
+York	I-LOC	I-LOC
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -31829,7 +31829,7 @@ Some	O	O
 prisoners	O	O
 were	O	O
 released	O	O
-last	I-LOC	I-DAT
+last	I-DAT	I-DAT
 week	I-DAT	I-DAT
 .	O	O
 ENDPAD	O	O
@@ -31939,7 +31939,7 @@ to	O	O
 be	O	O
 concerned	O	O
 about	O	O
-this	I-LOC	I-TIM
+this	I-DAT	I-TIM
 disease	O	I-TIM
 .	O	O
 ENDPAD	O	O
@@ -31990,7 +31990,7 @@ men	O	O
 were	O	O
 discovered	O	O
 early	I-DAT	I-DAT
-Sunday	I-DAT	I-DAT
+Sunday	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -32089,7 +32089,7 @@ in	O	O
 Afghanistan	I-LOC	I-LOC
 after	O	O
 the	O	O
-2001	I-DAT	I-DAT
+2001	I-ORG	I-DAT
 al-Qaida	I-ORG	I-DAT
 led	O	O
 terrorist	O	O
@@ -32097,7 +32097,7 @@ attacks	O	O
 on	O	O
 New	I-LOC	I-LOC
 York	I-DAT	I-LOC
-City	I-DAT	I-LOC
+City	I-LOC	I-LOC
 and	O	O
 Washington	I-LOC	I-LOC
 .	O	O
@@ -32183,7 +32183,7 @@ ENDPAD	O	O
 
 The	O	O
 Arab	O	I-ORG
-League	O	I-ORG
+League	I-ORG	I-ORG
 says	O	O
 an	O	O
 emergency	O	O
@@ -32191,14 +32191,14 @@ Arab	O	O
 summit	O	O
 scheduled	O	O
 for	O	O
-Wednesday	I-DAT	I-DAT
+Wednesday	I-LOC	I-DAT
 at	O	O
 the	O	O
 Egyptian	O	O
 resort	O	O
 of	O	O
 Sharm	I-DAT	I-LOC
-el-Sheikh	I-DAT	I-LOC
+el-Sheikh	I-LOC	I-LOC
 has	O	O
 been	O	O
 postponed	O	O
@@ -32207,11 +32207,11 @@ following	O	O
 the	O	O
 death	O	O
 of	O	O
-Saudi	I-DAT	I-LOC
-Arabia	I-DAT	I-LOC
+Saudi	I-LOC	I-LOC
+Arabia	I-LOC	I-LOC
 's	O	O
-King	I-DAT	I-LOC
-Fahd	I-DAT	I-LOC
+King	I-LOC	I-LOC
+Fahd	I-LOC	I-LOC
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -32443,7 +32443,7 @@ than	O	O
 million-selling	O	O
 albums	O	O
 ,	O	O
-Chicago	O	I-LOC
+Chicago	I-LOC	I-LOC
 has	O	O
 secured	O	O
 a	O	O
@@ -32549,7 +32549,7 @@ people	O	O
 worldwide	O	O
 over	O	O
 the	O	O
-past	I-LOC	I-DAT
+past	I-DAT	I-DAT
 three	O	I-DAT
 years	I-DAT	I-DAT
 .	O	O
@@ -32650,13 +32650,13 @@ Surayud	O	I-PER
 Chulanont	O	I-PER
 is	O	O
 in	O	O
-Indonesia	O	I-LOC
+Indonesia	I-LOC	I-LOC
 to	O	O
 meet	O	O
 with	O	O
 President	O	O
 Susilo	O	O
-Bambang	I-DAT	I-PER
+Bambang	I-ORG	I-PER
 Yudhoyono	O	I-PER
 .	O	O
 ENDPAD	O	O
@@ -32699,14 +32699,14 @@ Channel	O	I-LOC
 Islands	I-ORG	I-LOC
 represent	O	O
 the	O	O
-last	I-DAT	O
+last	I-LOC	O
 remnants	O	O
 of	O	O
 the	O	O
 medieval	O	O
 Dukedom	O	I-ORG
 of	O	I-ORG
-Normandy	O	I-ORG
+Normandy	I-LOC	I-ORG
 ,	O	O
 which	O	O
 held	O	O
@@ -32715,7 +32715,7 @@ in	O	O
 both	O	O
 France	I-LOC	I-LOC
 and	O	O
-England	I-DAT	I-LOC
+England	I-LOC	I-LOC
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -32910,8 +32910,8 @@ hometown	O	O
 of	O	O
 former	O	O
 dictator	O	O
-Saddam	I-DAT	I-PER
-Hussein	I-DAT	I-PER
+Saddam	I-LOC	I-PER
+Hussein	I-LOC	I-PER
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -32966,7 +32966,7 @@ estanged	O	O
 husband	O	O
 ,	O	O
 Paul	I-LOC	I-PER
-Beck	O	I-PER
+Beck	I-DAT	I-PER
 ,	O	O
 said	O	O
 their	O	O
@@ -32978,7 +32978,7 @@ the	O	O
 eating	O	O
 disorder	O	O
 for	O	O
-years	O	O
+years	I-LOC	O
 ,	O	O
 and	O	O
 is	O	O
@@ -33008,7 +33008,7 @@ following	O	O
 the	O	O
 2004	I-LOC	I-DAT
 Athens	I-DAT	I-LOC
-Olympics	I-DAT	I-LOC
+Olympics	I-LOC	I-LOC
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -33112,7 +33112,7 @@ death	O	O
 of	O	O
 18-year-old	O	O
 Nadhem	O	I-PER
-Abdullah	I-DAT	I-PER
+Abdullah	I-LOC	I-PER
 during	O	O
 a	O	O
 skirmish	O	O
@@ -33214,11 +33214,11 @@ portion	O	O
 of	O	O
 the	O	O
 Baja	O	I-ORG
-Peninsula	I-DAT	I-ORG
+Peninsula	I-LOC	I-ORG
 as	O	O
 early	I-DAT	O
 as	O	O
-Sunday	I-DAT	I-DAT
+Sunday	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -33405,7 +33405,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 ENDPAD	O	O
 
-Yemen	I-ORG	I-ORG
+Yemen	O	I-ORG
 has	O	O
 executed	O	O
 an	O	O
@@ -33458,7 +33458,7 @@ ENDPAD	O	O
 
 Earlier	O	I-DAT
 this	I-ORG	I-DAT
-week	I-ORG	I-DAT
+week	I-PER	I-DAT
 ,	O	O
 16	O	O
 prisoners	O	O
@@ -33517,9 +33517,9 @@ of	O	O
 the	O	O
 NATO-led	O	I-ORG
 International	I-DAT	I-ORG
-Security	I-DAT	I-ORG
-Assistance	I-DAT	I-ORG
-Force	I-DAT	I-ORG
+Security	I-ORG	I-ORG
+Assistance	I-ORG	I-ORG
+Force	I-ORG	I-ORG
 Thursday	I-DAT	I-DAT
 in	O	O
 Baghlan	O	I-LOC
@@ -33720,11 +33720,11 @@ the	O	O
 update	O	O
 on	O	O
 Mr.	I-LOC	I-LOC
-Sharon	I-DAT	I-PER
+Sharon	I-LOC	I-PER
 's	O	O
 condition	O	O
-Saturday	I-DAT	I-DAT
-evening	I-DAT	I-TIM
+Saturday	I-LOC	I-DAT
+evening	I-ORG	I-TIM
 after	O	I-TIM
 the	O	I-TIM
 end	O	I-TIM
@@ -34025,7 +34025,7 @@ happened	O	O
 Tuesday	I-LOC	I-DAT
 in	O	O
 the	O	O
-Swat	I-DAT	I-LOC
+Swat	I-LOC	I-LOC
 Valley	I-DAT	I-LOC
 ,	O	O
 near	O	O
@@ -34138,7 +34138,7 @@ occurring	O	O
 in	O	O
 Pakistan	I-LOC	I-LOC
 while	O	O
-few	I-DAT	O
+few	I-ORG	O
 hold	O	O
 al-Qaida	O	O
 responsible	O	O
@@ -34432,7 +34432,7 @@ took	O	O
 place	O	O
 in	O	O
 western	O	O
-Farah	I-LOC	I-LOC
+Farah	O	I-LOC
 province	O	O
 ,	O	O
 where	O	O
@@ -34747,8 +34747,8 @@ traveling	O	O
 in	O	O
 the	O	O
 southern	O	O
-Gaza	I-DAT	I-LOC
-Strip	I-DAT	I-LOC
+Gaza	I-LOC	I-LOC
+Strip	I-LOC	I-LOC
 ,	O	O
 killing	O	O
 at	O	O
@@ -34792,7 +34792,7 @@ over	O	O
 security	O	O
 duties	O	O
 in	O	O
-Kosovo	O	I-LOC
+Kosovo	I-LOC	I-LOC
 in	O	O
 1999,	O	I-LOC
 when	O	O
@@ -35097,7 +35097,7 @@ states	O	O
 ,	O	O
 meeting	O	O
 in	O	O
-Brussels	O	I-LOC
+Brussels	I-LOC	I-LOC
 ,	O	O
 condemned	O	O
 terrorism	O	O
@@ -35151,7 +35151,7 @@ signed	O	O
 a	O	O
 $	I-LOC	I-MON
 1.8	O	I-MON
-billion	O	I-MON
+billion	I-DAT	I-MON
 deal	O	O
 with	O	O
 the	O	O
@@ -35394,7 +35394,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 ENDPAD	O	O
 
-Typhoon	O	I-ORG
+Typhoon	I-ORG	I-ORG
 Longwang	O	I-ORG
 has	O	O
 hit	O	O
@@ -35402,8 +35402,8 @@ mainland	O	O
 China	I-LOC	I-LOC
 after	O	O
 pounding	O	O
-Taiwan	I-DAT	I-LOC
-Sunday	I-DAT	I-DAT
+Taiwan	I-ORG	I-LOC
+Sunday	I-LOC	I-DAT
 ,	O	O
 where	O	O
 it	O	O
@@ -35505,7 +35505,7 @@ sales	O	O
 rose	O	O
 sharply	O	O
 in	O	O
-March	I-DAT	I-DAT
+March	I-LOC	I-DAT
 as	O	O
 the	O	O
 American	O	O
@@ -35608,15 +35608,15 @@ representatives	O	O
 from	O	O
 the	O	O
 United	I-LOC	I-LOC
-States	I-DAT	I-LOC
+States	I-LOC	I-LOC
 ,	O	O
-European	I-DAT	I-ORG
-Union	I-DAT	I-ORG
+European	I-ORG	I-ORG
+Union	I-LOC	I-ORG
 ,	O	O
 and	O	O
 the	O	O
 Inter-American	O	I-ORG
-Development	I-DAT	I-ORG
+Development	O	I-ORG
 Bank	I-LOC	I-ORG
 .	O	O
 ENDPAD	O	O
@@ -35964,7 +35964,7 @@ capital	O	O
 of	O	O
 $	I-LOC	I-MON
 2.7	O	I-MON
-billion	O	I-MON
+billion	I-LOC	I-MON
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -36006,7 +36006,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 ENDPAD	O	O
 
-2	O	O
+2	I-PER	O
 to	O	O
 stock	O	O
 of	O	O
@@ -36169,7 +36169,7 @@ by	O	O
 the	O	O
 UK	I-LOC	I-ORG
 in	O	O
-1971	I-ORG	I-DAT
+1971	O	I-DAT
 and	O	O
 complete	O	O
 independence	O	O
@@ -36263,7 +36263,7 @@ ENDPAD	O	O
 
 Authorities	O	O
 in	O	O
-Haiti	I-ORG	I-LOC
+Haiti	I-LOC	I-LOC
 have	O	O
 killed	O	O
 at	O	O
@@ -36280,7 +36280,7 @@ ousted	O	O
 former	O	O
 President	O	O
 Jean-Bertrand	I-DAT	I-PER
-Aristide	I-DAT	I-PER
+Aristide	I-LOC	I-PER
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -36312,7 +36312,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 ENDPAD	O	O
 
-China	I-ORG	I-LOC
+China	I-LOC	I-LOC
 says	O	O
 it	O	O
 has	O	O
@@ -36377,9 +36377,9 @@ ousted	O	O
 Mr.	I-LOC	I-LOC
 Aristide	I-DAT	I-PER
 in	O	O
-February	I-DAT	I-DAT
+February	I-LOC	I-DAT
 -	O	I-DAT
-moved	I-DAT	O
+moved	O	O
 into	O	O
 the	O	O
 compound	O	O
@@ -36579,9 +36579,9 @@ Architecture	O	I-ORG
 Mary	O	I-PER
 Comerio	O	I-PER
 ,	O	O
-University	I-ORG	I-ORG
+University	O	I-ORG
 of	O	I-ORG
-California	I-ORG	I-ORG
+California	I-LOC	I-ORG
 ,	O	O
 Berkeley	O	I-LOC
 about	O	O
@@ -36629,8 +36629,8 @@ regain	O	O
 control	O	O
 of	O	O
 the	O	O
-Swat	O	I-LOC
-Valley	I-DAT	I-LOC
+Swat	I-LOC	I-LOC
+Valley	I-LOC	I-LOC
 in	O	O
 recent	O	I-DAT
 months	O	I-DAT
@@ -36729,7 +36729,7 @@ Ambassador	I-ORG	I-ORG
 John	I-ORG	I-ORG
 Bolton	I-ORG	I-ORG
 said	O	O
-Tuesday	I-DAT	I-DAT
+Tuesday	I-LOC	I-DAT
 he	O	O
 is	O	O
 urgently	O	O
@@ -36837,7 +36837,7 @@ Hamas	I-LOC	I-PER
 of	O	O
 Prime	O	O
 Minister	O	O
-Haniyeh	I-DAT	I-PER
+Haniyeh	I-LOC	I-PER
 and	O	O
 the	O	O
 more	O	O
@@ -36847,8 +36847,8 @@ party	O	O
 of	O	O
 Palestinian	O	O
 President	O	O
-Mahmoud	I-DAT	I-PER
-Abbas	I-DAT	I-PER
+Mahmoud	I-LOC	I-PER
+Abbas	I-LOC	I-PER
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -36879,7 +36879,7 @@ the	O	O
 pro-government	O	O
 Ahlu	O	I-ORG
 Sunna	O	I-ORG
-Wajama	O	I-ORG
+Wajama	I-ORG	I-ORG
 reportedly	O	O
 attacked	O	O
 the	O	O
@@ -36938,9 +36938,9 @@ and	O	O
 formally	O	O
 charged	O	O
 in	O	O
-Tel	I-DAT	I-ORG
+Tel	I-LOC	I-ORG
 Aviv	I-DAT	I-ORG
-Sunday	I-DAT	I-DAT
+Sunday	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -37088,13 +37088,13 @@ by	O	O
 members	O	O
 of	O	O
 the	O	O
-Revolutionary	I-DAT	I-ORG
+Revolutionary	I-LOC	I-ORG
 Armed	I-DAT	I-ORG
 Forces	O	I-ORG
 of	O	O
-Colombia	I-DAT	I-LOC
+Colombia	I-LOC	I-LOC
 (	O	O
-FARC	I-DAT	O
+FARC	I-ORG	O
 )	O	O
 rebel	O	O
 group	O	O
@@ -37129,7 +37129,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 President	O	O
-Bush	O	I-PER
+Bush	I-PER	I-PER
 has	O	O
 called	O	O
 his	O	O
@@ -37232,11 +37232,11 @@ ENDPAD	O	O
 
 Nepal	I-ORG	I-LOC
 regards	O	O
-Tibet	I-ORG	I-LOC
+Tibet	I-PER	I-LOC
 as	O	O
 part	O	O
 of	O	O
-China	I-ORG	I-LOC
+China	I-LOC	I-LOC
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -37291,8 +37291,8 @@ Palestinian	O	O
 militant	O	O
 in	O	O
 the	O	O
-West	I-DAT	I-ORG
-Bank	I-DAT	I-ORG
+West	I-LOC	I-ORG
+Bank	I-LOC	I-ORG
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -37489,7 +37489,7 @@ The	O	O
 riot	O	O
 erupted	O	O
 late	I-ORG	I-TIM
-Friday	I-DAT	I-TIM
+Friday	I-ORG	I-TIM
 night	I-ORG	I-TIM
 in	O	O
 the	O	O
@@ -37803,11 +37803,11 @@ Paul	I-DAT	I-LOC
 Tuesday	I-DAT	I-DAT
 ,	O	O
 former	O	O
-Republican	O	O
+Republican	I-ORG	O
 presidential	O	O
 candidate	O	O
 Ron	O	I-PER
-Paul	I-DAT	I-PER
+Paul	I-LOC	I-PER
 held	O	O
 a	O	O
 rally	O	O
@@ -38002,7 +38002,7 @@ leaders	O	O
 ,	O	O
 including	O	O
 President	O	O
-Bush	O	I-PER
+Bush	I-LOC	I-PER
 ,	O	O
 are	O	O
 to	O	O
@@ -38420,9 +38420,9 @@ five	O	I-DAT
 days	O	I-DAT
 after	O	I-DAT
 the	O	I-DAT
-US	I-DAT	I-ORG
+US	I-LOC	I-ORG
 Gulf	I-DAT	I-LOC
-Coast	I-DAT	I-LOC
+Coast	I-LOC	I-LOC
 was	O	O
 hit	O	O
 by	O	O
@@ -38455,10 +38455,10 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 The	O	O
-U.S.	I-ORG	I-LOC
+U.S.	I-LOC	I-LOC
 military	O	O
 in	O	O
-Afghanistan	I-ORG	I-LOC
+Afghanistan	I-LOC	I-LOC
 says	O	O
 two	O	O
 Marines	O	I-PER
@@ -38767,7 +38767,7 @@ and	O	O
 Germany	I-ORG	I-LOC
 have	O	O
 asked	O	O
-Tehran	O	I-LOC
+Tehran	I-ORG	I-LOC
 to	O	O
 surrender	O	O
 its	O	O
@@ -38866,7 +38866,7 @@ The	O	O
 couple	O	O
 wed	O	O
 in	O	O
-1999	I-ORG	I-DAT
+1999	O	I-DAT
 ,	O	O
 divorced	O	O
 in	O	O
@@ -38874,14 +38874,14 @@ in	O	O
 ,	O	O
 remarried	O	O
 in	O	O
-January	I-DAT	I-DAT
+January	I-LOC	I-DAT
 2006	I-DAT	I-DAT
 ,	O	O
 and	O	O
 separated	O	O
 three	O	I-DAT
 months	O	I-DAT
-later	I-DAT	I-DAT
+later	I-LOC	I-DAT
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -39175,11 +39175,11 @@ for	O	O
 the	O	O
 U.S.	I-LOC	I-LOC
 economy	O	O
-Friday	I-DAT	I-DAT
+Friday	I-LOC	I-DAT
 :	O	O
 the	O	O
 Labor	I-ORG	I-ORG
-Department	I-DAT	I-ORG
+Department	I-ORG	I-ORG
 reported	O	O
 the	O	O
 nation	O	O
@@ -39191,7 +39191,7 @@ half	O	O
 million	O	O
 jobs	O	O
 in	O	O
-November	I-DAT	I-DAT
+November	I-LOC	I-DAT
 ,	O	O
 the	O	O
 most	O	O
@@ -39223,14 +39223,14 @@ News	O	O
 reports	O	O
 identify	O	O
 Mr.	I-LOC	I-LOC
-Kenjic	O	I-LOC
+Kenjic	I-ORG	I-LOC
 as	O	O
 a	O	O
 former	O	O
 member	O	O
 of	O	O
-General	I-DAT	I-ORG
-Mladic	I-DAT	I-ORG
+General	I-LOC	I-ORG
+Mladic	I-ORG	I-ORG
 's	O	O
 personal	O	O
 security	O	O
@@ -39433,11 +39433,11 @@ Europe	I-LOC	I-LOC
 after	O	O
 the	O	O
 Holy	O	I-ORG
-See	I-DAT	I-ORG
+See	O	I-ORG
 and	O	O
 Monaco	O	I-LOC
 ),	O	I-LOC
-San	I-DAT	I-LOC
+San	I-ORG	I-LOC
 Marino	O	I-LOC
 also	O	O
 claims	O	O
@@ -39729,13 +39729,13 @@ ENDPAD	O	O
 ENDPAD	O	O
 ENDPAD	O	O
 
-Honduras	O	I-LOC
+Honduras	I-PER	I-LOC
 ,	O	O
 Nicaragua	O	I-LOC
 and	O	O
 the	O	O
 Dominican	O	I-LOC
-Republic	I-ORG	I-LOC
+Republic	I-LOC	I-LOC
 have	O	O
 withdrawn	O	O
 their	O	O
@@ -39783,9 +39783,9 @@ ENDPAD	O	O
 NATO	I-ORG	I-ORG
 's	O	I-ORG
 International	I-ORG	I-ORG
-Security	O	I-ORG
+Security	I-ORG	I-ORG
 Assistance	I-ORG	I-ORG
-Force	I-ORG	I-ORG
+Force	I-PER	I-ORG
 (	O	O
 ISAF	O	I-ORG
 )	O	O
@@ -40053,8 +40053,8 @@ the	O	O
 ouster	O	O
 of	O	O
 President	O	O
-Askar	I-DAT	I-PER
-Akayev	O	I-PER
+Askar	I-LOC	I-PER
+Akayev	I-LOC	I-PER
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -40086,7 +40086,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 ENDPAD	O	O
 
-Turkey	I-ORG	I-ORG
+Turkey	I-PER	I-ORG
 has	O	O
 detained	O	O
 10	O	O
@@ -40199,7 +40199,7 @@ the	O	O
 British	O	I-ORG
 Commonwealth	I-LOC	I-ORG
 of	O	I-ORG
-Nations	I-DAT	I-ORG
+Nations	I-LOC	I-ORG
 in	O	O
 1981	O	I-DAT
 .	O	O
@@ -40469,7 +40469,7 @@ Farraj	O	I-PER
 al-	O	I-PER
 Libbi	O	I-PER
 ,	O	O
-earlier	I-DAT	I-DAT
+earlier	I-ORG	I-DAT
 this	I-DAT	I-DAT
 month	I-DAT	I-DAT
 .	O	O
@@ -40851,7 +40851,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 ENDPAD	O	O
 
-Helmand	I-ORG	I-LOC
+Helmand	I-PER	I-LOC
 province	O	O
 has	O	O
 been	O	O
@@ -41017,7 +41017,7 @@ to	O	O
 mark	O	O
 the	O	O
 60th	O	I-DAT
-anniversary	O	O
+anniversary	I-LOC	O
 of	O	O
 the	O	O
 country	O	O
@@ -41158,7 +41158,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 A	O	O
-U.S.	I-ORG	I-LOC
+U.S.	I-LOC	I-LOC
 judge	O	O
 has	O	O
 ordered	O	O
@@ -41178,7 +41178,7 @@ sailors	O	O
 killed	O	O
 in	O	O
 the	O	O
-2000	O	I-DAT
+2000	I-LOC	I-DAT
 terrorist	O	O
 attack	O	O
 on	O	O
@@ -41224,10 +41224,10 @@ capital	O	O
 of	O	O
 the	O	O
 volatile	O	O
-North	I-DAT	I-ORG
+North	I-LOC	I-ORG
 West	I-DAT	I-ORG
-Frontier	I-DAT	I-ORG
-Province	I-DAT	I-ORG
+Frontier	I-ORG	I-ORG
+Province	I-ORG	I-ORG
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -41262,13 +41262,13 @@ ENDPAD	O	O
 The	O	O
 Afghan	O	I-ORG
 Defense	O	I-ORG
-Ministry	I-ORG	I-ORG
+Ministry	I-LOC	I-ORG
 says	O	O
 the	O	O
 operation	O	O
 took	O	O
 place	O	O
-Wednesday	I-DAT	I-DAT
+Wednesday	I-LOC	I-DAT
 in	O	O
 southern	O	O
 Helmand	I-LOC	I-LOC
@@ -41375,7 +41375,7 @@ said	O	O
 he	O	O
 appreciates	O	O
 Mr.	I-LOC	I-ORG
-Bush	I-DAT	I-PER
+Bush	I-LOC	I-PER
 's	O	O
 desire	O	O
 to	O	O
@@ -41431,8 +41431,8 @@ $	I-LOC	I-MON
 a	O	O
 barrel	O	O
 in	O	O
-New	I-DAT	I-LOC
-York	I-DAT	I-LOC
+New	I-LOC	I-LOC
+York	I-LOC	I-LOC
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -41523,7 +41523,7 @@ Barack	O	I-ORG
 Obama	I-ORG	I-ORG
 as	O	O
 the	O	O
-next	I-LOC	O
+next	I-ORG	O
 president	O	O
 have	O	O
 been	O	O
@@ -41719,7 +41719,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 The	O	O
-U.S.	I-ORG	I-LOC
+U.S.	I-LOC	I-LOC
 military	O	O
 confirmed	O	O
 the	O	O
@@ -42034,15 +42034,15 @@ band	O	O
 just	O	O
 before	O	O
 his	O	I-DAT
-13th	I-LOC	I-DAT
+13th	O	I-DAT
 birthday	O	I-DAT
 ,	O	O
 visited	O	O
 with	O	O
 VOA	I-LOC	I-ORG
 's	O	O
-Larry	O	I-PER
-London	I-DAT	I-LOC
+Larry	I-ORG	I-PER
+London	I-LOC	I-LOC
 during	O	O
 a	O	O
 recent	O	O
@@ -42146,7 +42146,7 @@ the	O	O
 health	O	O
 of	O	O
 the	O	O
-Texas	O	I-ORG
+Texas	I-LOC	I-ORG
 ecosystem	O	O
 .	O	O
 ENDPAD	O	O
@@ -42740,7 +42740,7 @@ ENDPAD	O	O
 
 The	O	O
 state-run	O	O
-China	I-ORG	I-LOC
+China	I-LOC	I-LOC
 Daily	O	I-LOC
 newspaper	O	O
 says	O	O
@@ -42751,7 +42751,7 @@ western	O	O
 China	I-LOC	I-LOC
 increased	O	O
 35	O	O
-percent	I-DAT	I-PCT
+percent	I-ORG	I-PCT
 last	I-DAT	I-DAT
 year	I-DAT	I-DAT
 over	O	I-DAT
@@ -42892,14 +42892,14 @@ ENDPAD	O	O
 ENDPAD	O	O
 
 Steve	I-ORG	I-PER
-Mort	I-ORG	I-PER
+Mort	I-PER	I-PER
 reports	O	O
 for	O	O
-VOA	I-ORG	I-ORG
+VOA	I-LOC	I-ORG
 from	O	O
 Orlando	O	I-LOC
 ,	O	O
-Florida	I-ORG	I-LOC
+Florida	I-LOC	I-LOC
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -42995,7 +42995,7 @@ ENDPAD	O	O
 
 Separately	O	O
 ,	O	O
-NATO	I-ORG	I-ORG
+NATO	I-LOC	I-ORG
 says	O	O
 coalition	O	O
 forces	O	O
@@ -43044,7 +43044,7 @@ ENDPAD	O	O
 ENDPAD	O	O
 ENDPAD	O	O
 
-Indonesia	I-ORG	I-LOC
+Indonesia	I-PER	I-LOC
 is	O	O
 a	O	O
 new	O	O
@@ -43054,8 +43054,8 @@ of	O	O
 the	O	O
 United	I-LOC	I-ORG
 Nations	I-DAT	I-ORG
-Security	I-DAT	I-ORG
-Council	I-DAT	I-ORG
+Security	I-ORG	I-ORG
+Council	I-LOC	I-ORG
 .	O	O
 ENDPAD	O	O
 ENDPAD	O	O
@@ -43149,7 +43149,7 @@ ENDPAD	O	O
 Palestinian	O	O
 leader	O	O
 Mahmoud	I-ORG	I-PER
-Abbas	I-ORG	I-PER
+Abbas	I-PER	I-PER
 says	O	O
 he	O	O
 will	O	O
@@ -43163,7 +43163,7 @@ prime	O	O
 minister	O	O
 ,	O	O
 Ahmed	I-LOC	I-PER
-Qureia	I-DAT	I-PER
+Qureia	O	I-PER
 ,	O	O
 to	O	O
 stay	O	O
@@ -43216,7 +43216,7 @@ an	O	O
 attack	O	O
 in	O	O
 northwestern	O	O
-Saudi	I-DAT	I-LOC
+Saudi	I-LOC	I-LOC
 Arabia	I-LOC	I-LOC
 .	O	O
 ENDPAD	O	O

@@ -17,7 +17,7 @@ def transform(gmb_dir):
                         new_sentence=False
                         sentences.append(row)
                     elif len(line) >= 5:
-                        row = [",", line[0], line[1], line[4]]
+                        row = ["", line[0], line[1], line[4]]
                         sentences.append(row)
                     else:
                         new_sentence = True
@@ -31,7 +31,7 @@ def main():
 
     with open("./data/processed_data/gmb-1.0.0.csv", "w", newline="") as f:
         writer = csv.writer(f)
-        writer.writerow(["Sentence #", "Word", "POS", "Tag"])    
+        writer.writerow(["Sentence #", "Word", "POS", "Tag"])
         writer.writerows(sentences)
 
 if __name__ == "__main__":
