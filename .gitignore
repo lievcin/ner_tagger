@@ -1,7 +1,5 @@
 # venv
 ner_tagger
-data
-pre-trained-embeddings
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -9,3 +7,7 @@ pre-trained-embeddings
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+
+# data folders
+data
+pre-trained-embeddings

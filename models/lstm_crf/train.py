@@ -36,11 +36,11 @@ class LSTMCRF:
             x=X_train,
             y=y_train,
             validation_data=(X_test,y_test),
-            batch_size=32, 
+            batch_size=32,
             epochs=3,
             callbacks=[self.checkpoint, EarlyStopping()],
             verbose=1
-        )           
+        )
 
     def test(self, data):
         _, X, _, y = data.Xy
@@ -72,8 +72,8 @@ class LSTMCRF:
             json_file.write(model_json)
         # serialize weights to HDF5
         self.model.save_weights("{}/model.h5".format(path))
-        print("Saved model to disk")        
-            
+        print("Saved model to disk")
+
 
 if __name__ == "__main__":
     dataset = Dataset(path="./data/processed_data/gmb-1.0.0.csv", maxlen=50)
