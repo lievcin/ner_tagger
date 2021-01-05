@@ -7,6 +7,7 @@ sys.path.append(".")
 from src.utils import get_project_root
 ROOT_DIR = get_project_root()
 
+import json
 from optparse import OptionParser
 
 import functools
@@ -82,13 +83,8 @@ def model_fn(params):
 
     return model
 
-def model_save(model):
-    model_json = model.to_json()
-    with open("{}/model.json".format(path), "w") as json_file:
-        json_file.write(model_json)
-
-    model.save_weights("{}/model.h5".format(path))
-    logging.info("Saved model to disk!")
+def save_model(model):
+    model.save("{}/results/model".format(path))
 
 if __name__ == '__main__':
     usage = """
@@ -96,6 +92,7 @@ if __name__ == '__main__':
     but using the -c option will tell it to use the Conll dataset.( not implemented yet)
     Usage scenarios:
     1) train [-g] [-c]: This command trains our bidirectional lsmt model against the Conll (or GMB if -g option is used)
+    1) test [-g] [-c]: This command loads a trained model and tests it against the the Conll (or GMB if -g option is used)
     """
 
     parser = OptionParser(usage)
@@ -106,7 +103,7 @@ if __name__ == '__main__':
 
     options, args = parser.parse_args()
 
-    if len(args)==0 or args[0].lower().strip() not in ['train']:
+    if len(args)==0 or args[0].lower().strip() not in ["train", "test"]:
         print('Command not recognized.')
         print(usage)
         sys.exit(-1)
@@ -137,8 +134,16 @@ if __name__ == '__main__':
     params['pad_index']=tag2idx['O']
     params["labels_size"]=tags_len
 
+    with Path("{}/results/params.json".format(path)).open('w') as f:
+        json.dump(params, f, indent=4, sort_keys=True)
+
     if cmd=="train":
         dataset = functools.partial(input_fn, fwords('train'), ftags('train'), params, shuffle_and_repeat=True)()
+        valid_dataset = functools.partial(input_fn, fwords('test'), ftags('test'), params, shuffle_and_repeat=True)()
         model = model_fn(params)
-        model.fit(dataset, epochs=1)
-        model_save(model)
+        model.fit(dataset, validation_data=valid_dataset, epochs=1)
+        save_model(model)
+    elif cmd=="test":
+        model=tf.keras.models.load_model("{}/results/model".format(path))
+        valid_dataset = functools.partial(input_fn, fwords('test'), ftags('test'), params, shuffle_and_repeat=True)()
+        predictions = model.predict(valid_dataset)
