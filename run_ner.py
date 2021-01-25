@@ -38,7 +38,7 @@ def choose_model(args):
             hidden_size=args.hidden_size,
             dropout=args.dropout,
             num_classes=args.num_classes,
-            lr=args.learning_rate)
+            learning_rate=args.learning_rate)
         path = 'models/bilstm_crf/results'
         return model, path
 

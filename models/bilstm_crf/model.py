@@ -7,7 +7,7 @@ from tensorflow.keras.layers import LSTM, Embedding, Lambda, Bidirectional, Spat
 from tensorflow.keras.optimizers import Adam
 
 
-def BiLSTMCRF(vocab_size, embedding_size, hidden_size=256, dropout=0.1, num_classes=3, lr=5e-5):
+def BiLSTMCRF(vocab_size, embedding_size, hidden_size=256, dropout=0.1, num_classes=3, learning_rate=5e-5):
 
     sequence_input = Input(shape=(None,), dtype=tf.int32, name='sequence_input')
     sequence_mask = Lambda(lambda x: tf.greater(x, 0))(sequence_input)
@@ -17,14 +17,13 @@ def BiLSTMCRF(vocab_size, embedding_size, hidden_size=256, dropout=0.1, num_clas
         LSTM(units=hidden_size // 2, return_sequences=True)
         )
     outputs = bilstm(dropout)
-    logits = Dense(num_classes, activation=None)(outputs)
     crf = CRF(num_classes)
-    outputs = crf(inputs=logits, mask=sequence_mask)
+    outputs = crf(inputs=outputs, mask=sequence_mask)
     model = Model(inputs=sequence_input, outputs=outputs)
     model.compile(
         loss=crf.neg_log_likelihood,
         metrics=[crf.accuracy],
-        optimizer=Adam(lr))
+        optimizer=Adam(learning_rate))
 
     model.summary()
     return model

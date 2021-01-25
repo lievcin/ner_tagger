@@ -94,9 +94,6 @@ class DatasetBuilder:
 
     def build_labelled_dataset(self, sentences_file, labels_file, batch_size):
         features, labels = read_labelled_files(sentences_file, labels_file)
-        # print(len(features), len(labels))
-        # print(features[0], "\n")
-        # print(labels[0])
         features = [self.token_mapper.encode(x) for x in features]
         labels = [self.label_mapper.encode(x) for x in labels]
         features = tf.ragged.constant(features, dtype=tf.int32)
