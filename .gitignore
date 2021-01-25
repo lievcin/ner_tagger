@@ -1,3 +1,21 @@
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
 # venv
 ner_tagger
 
@@ -13,5 +31,9 @@ data
 pre-trained-embeddings
 
 # model files
-models/**/*.h5
 models/**/*.json
+models/**/results/model/*
+
+
+# For mac
+.DS_Store
