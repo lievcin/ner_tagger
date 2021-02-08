@@ -33,7 +33,8 @@ pre-trained-embeddings
 # model files
 models/**/*.json
 models/**/results/model/*
-
+models/**/results/export
+models/**/results/logs
 
 # For mac
 .DS_Store

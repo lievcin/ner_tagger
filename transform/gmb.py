@@ -64,5 +64,6 @@ def main():
     test_labels.to_csv("./data/processed_data/gmb/test.labels.csv", index=False, header=False)
     del (df_test, test_sentences, test_labels)
 
+
 if __name__ == "__main__":
     main()
